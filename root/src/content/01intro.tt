@@ -1,3 +1,38 @@
 [% FILTER markdown %]
 
+Introduction
+============
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+So, writing. It's something I do as a hobby, and I'm going to assume that the same is true for you, dear reader. I've been doing it for a few years now, and I'm always seeking to learn and improve my craft. The following guide is a collection of many of the things I've learnt about writing over my time as a writer. I'm not a professional, nor am I training to be one, but I care about this stuff.
+
+Ostensibly, this is a guide to writing fanfiction, but much of the advice contained in the following pages pertains to fiction – and indeed, to writing – in general. I have written a fair bit of original fiction, and some MLP:FiM fanfiction, so I think of myself as more of a writer in general than a specialised fanfic writer.
+
+Indeed, for most of my life, I detested fanfiction with a burning rage, but the many great authors in the brony community have shown me that it can indeed be well-written and worth my time to read. Fanfiction can stand on its own, and is not, I don't think, intrinsically inferior to original fiction. Each form presents its own challenges, and each form can be done badly or done well. It all depends on the writer.
+
+Note that fanfiction, and indeed all things, are only serious business if you want them to be.
+
+Do you want to write well? Do you want your writing to be appreciated and remembered? I do too, and I'd like to do what I can to help you get there. I'm not going to lie: writing is hard, and it's not for everybody. You're not going to get better without doing a lot of writing, a lot of thinking and a lot of reading. But I suppose if you've read this far, you're prepared to put in the effort.
+
+Keep in mind that a lot of this guide is based on my experiences and the opinions I've formed because of them. There are parts of it you may disagree with. I like to think that I've explained my positions fairly well, but if I can inspire you to come up with your own well-formulated but opposing thoughts, I'll call this guide a success.
+
+I encourage you to be thoughtful in your writing: think about the things you write, and about the way you write them – think about language, characterisation, flow, pacing, plotting, and even formatting. When you write, you're communicating thoughts, so it's a good idea to have a lot of good ones *to* communicate.
+
+Welcome to my guide. I hope it proves useful.
+
+* * *
+
+I’m going to be brightening this document with some coloured text, because I really like colours.
+
+<h6>Colour Key</h6>
+
+* Black text: ordinary writing
+* <span class="good">Green: examples of correct writing</span>
+* <span class="bad">Red: examples of incorrect writing</span>
+* <span class="golden">Gold: golden rules</span>
+* <span style="color: purple">Other colours are a surprise!</span>
+
+Also, I am not American, so I call “periods” full stops and I spell words the right way. I’ve tried to avoid discussing things Americans and other people disagree on in this guide, but one or two little things may have crept in, for which I apologise (with an “s”) in advance.
+
 [% END %]

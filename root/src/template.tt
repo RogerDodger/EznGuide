@@ -1,0 +1,10 @@
+[% FILTER markdown %]
+
+%{Heading}
+==========
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+%{Content}
+
+[% END %]

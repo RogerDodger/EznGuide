@@ -1,0 +1,12 @@
+[% FILTER markdown %]
+
+Grammar
+=======
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+A lot of what makes a work of fiction (or any piece of writing) good is subjective. This section is not. Learn these rules, and live by them. Only break them when you fully understand them, and absolutely have to.
+
+As for the evolution of language... well, I can see the merit and importance of that, but there’s a difference between language evolving and you being too lazy to express yourself in a clear and readable manner. Again, learn the rules before breaking them.
+
+[% END %]
