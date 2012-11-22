@@ -69,8 +69,8 @@ No way...
 [%- END %]
 </pre>
 
-Blah blah <foot>Footnote</foot> blah.
+Blah blah [[Footnote]] blah.
 
-Blah blah <foot>Level 1<foot>Level 2<foot>Level 3</foot></foot><foot>Back to 2</foot> is good.</foot>.
+Blah blah [[Level 1 [[ Level 2 [[Level 3]] ]] [[Back to 2]] is good.]].
 
 [% END %]

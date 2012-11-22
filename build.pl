@@ -124,8 +124,8 @@ $stash->set('headers', \@headers);
 my @footnotes;
 my $n = 0;
 
-my $b = quotemeta( my $begin_tag = '<foot>' );
-my $e = quotemeta( my $end_tag = '</foot>' );
+my $b = quotemeta( my $begin_tag = '[[' );
+my $e = quotemeta( my $end_tag = ']]' );
 
 # Remove leading whitespace from begin tags to make source nicer
 $content =~ s/\s+(?=$b)//g;
