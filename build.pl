@@ -92,12 +92,13 @@ my $tt = Template->new({
 });
 
 #Process templates
-chdir("$Bin/root/src");
+chdir('../src');
 my $content = '';
 for my $fn ( glob "content/*" ) {
 	say "processing $fn";
 	$tt->process($fn, undef, \$content);
 }
+chdir('../static');
 
 #Process headings
 my $tree = HTML::TreeBuilder->new->parse($content);
