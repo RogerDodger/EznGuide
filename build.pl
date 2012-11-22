@@ -44,6 +44,11 @@ die "$config->{path} is not a directory" unless -d $config->{path};
 
 my $builddir = "$config->{path}/EznGuide";
 
+unless( -e "$builddir/favicon.ico" ) {
+	say "create $builddir/favicon.ico";
+	cp("$Bin/root/favicon.ico", "$builddir/favicon.ico");
+}
+
 # Move static files into the builddir
 chdir('root/static');
 find( 
