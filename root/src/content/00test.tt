@@ -1,0 +1,70 @@
+[% FILTER markdown %]
+
+Readme
+======
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+The entire site is built with perl, so you'll have to [get it](http://strawberryperl.com)
+before you can actually use this.
+
+The site all gets built with a single script, `build.pl`. It copies the static
+files into the right place, builds the webpage, then puts it all into a zip for
+good measure.
+
+Follow the installation instruction in `README.md` before running the build
+script, lest you want to debug all of perl's complaints.
+
+A Table
+-------
+
+###Level 3
+
+Boom
+====
+
+Hahaha!
+-------
+
+No way...
+----------
+
+<pre class="sunlight-highlight-xml">
+[%- FILTER html %]
+<table class="solid">
+	<tr class="heading">
+		<th>#</th>
+		<th>Praesent dui</th>
+		<th>Erat, Aliquet</th>
+		<th>El Condimentum</th>
+	</tr>
+	
+	<tr class="odd">
+		<th>1</th>
+		<td>imperdiet quis ligula</td>
+		<td>Sed id libero nec odio</td>
+		<td>varius ultricies</td>
+	</tr>
+
+	<tr class="even">
+		<th>2</th>
+		<td>Nam malesuada, velit vel lobortis ornare</td>
+		<td>purus ipsum viverra urna</td>
+		<td>fringilla accumsan velit nunc non elit</td>
+	</tr>
+
+	<tr class="odd">
+		<th>3</th>
+		<td>Aenean ac tortor in velit iaculis facilisis sed eu arcu</td>
+		<td>Aliquam eu velit quis condimentum vitae vitae diam</td>
+		<td>Nulla laoreet luctus quam, feugiat tincidunt leo fermentum a</td>
+	</tr>
+</table>
+[%- END %]
+</pre>
+
+Blah blah <foot>Footnote</foot> blah.
+
+Blah blah <foot>Level 1<foot>Level 2<foot>Level 3</foot></foot><foot>Back to 2</foot> is good.</foot>.
+
+[% END %]
