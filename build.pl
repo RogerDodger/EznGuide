@@ -101,14 +101,18 @@ for my $fn ( glob "content/*" ) {
 chdir('../static');
 
 #Process headings
-my $tree = HTML::TreeBuilder->new->parse($content);
+my $tree = HTML::TreeBuilder->new;
+$tree->no_expand_entities(1);
+$tree->parse($content);
+$tree->eof;
 my @headers;
 for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
+	say $e->as_HTML;
 	if( (my $index = index $content, $e->as_HTML ) >= 0 ) {
 		substr($content, $index, 0 ) = sprintf
-		  '<span class="backtop">'
+		  '<p class="backtop">'
 			. '<a id="%s" href="#Contents">Back to top</a>'
-		. "</span>\n",
+		. "</p>\n",
 		simple_uri $e->as_text;
 		(my $level = $e->tag) =~ s/h//;
 		push @headers, { 
