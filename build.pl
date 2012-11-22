@@ -154,28 +154,30 @@ for ( my $i = 0; $i <= $#tokens; $i++ )
 	}
 }
 
-my $footref_fmt = '<sup><a id="foot-%s" href="#foot-%s">%d</a></sup>';
-$content .= '
-<h1>Footnotes</h1>
-<ul class="footnotes">
-';
-for my $footnote ( map { ref $_ ? @$_ : $_ } @footnotes ) 
-{
-	$n++;
-	
-	#Replace content with numbered foot reference
-	substr(
-		$content, 
-		index($content, $footnote), 
-		length $footnote
-	) = sprintf $footref_fmt, "$n-a", $n, $n;
-	
-	#Append note
-	my $backref = sprintf $footref_fmt, $n, "$n-a", $n;
-	s/^$b//, s/$e$// for $footnote; 
-	$content .= "\t<li>$backref $footnote</li>\n";
+if( @footnotes ) {
+	my $footref_fmt = '<sup><a id="foot-%s" href="#foot-%s">%d</a></sup>';
+	$content .= '
+	<h1>Footnotes</h1>
+	<ul class="footnotes">
+	';
+	for my $footnote ( map { ref $_ ? @$_ : $_ } @footnotes ) 
+	{
+		$n++;
+		
+		#Replace content with numbered foot reference
+		substr(
+			$content, 
+			index($content, $footnote), 
+			length $footnote
+		) = sprintf $footref_fmt, "$n-a", $n, $n;
+		
+		#Append note
+		my $backref = sprintf $footref_fmt, $n, "$n-a", $n;
+		s/^$b//, s/$e$// for $footnote; 
+		$content .= "\t<li>$backref $footnote</li>\n";
+	}
+	$content .= "</ul>\n";
 }
-$content .= "</ul>\n";
 
 $stash->set('content', $content);
 
