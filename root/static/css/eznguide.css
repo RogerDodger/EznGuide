@@ -108,13 +108,15 @@ p, table, ol, ul, .para {
 li ol, li ul {
 	margin: 0;
 }
+h1, h2, h3, h4 {
+    padding-top: 1em;
+}
 h1 {
 	font-size: 2.4em;
 	color: #000;
 }
 h2 {
 	font-size: 1.8em;
-	font-style: italic;
 	margin-bottom: 0.8em;
 }
 h3 {

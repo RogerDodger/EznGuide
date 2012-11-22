@@ -19,10 +19,10 @@ jQuery(document).ready(function($) {
 		);
 		
 	});
-	
+
 	$('a')
-		.filter(function() {
-			return $(this).attr('href').matches(/^#/);
+		.filter(function(i) {
+			return !/^#/.test( $(this).attr('href') );
 		})
 		.attr({
 			title: 'Open link in new tab',

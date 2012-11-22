@@ -12,6 +12,40 @@ As for the evolution of language... well, I can see the merit and importance of 
 Formatting
 ----------
 
-Blah blah blah blah
+Equestria Daily advises writers to follow one of three rules when paragraphing:
+
+###### 1. Indent the first lines of every paragraph.
+
+<blockquote class="good">
+
+	<p class="indent noafter">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
+
+	<p class="indent noafter">Birds sang, leaves rustled in the gentle breeze, and the world was otherwise silent. Then came the soft padding of hooves – not a so much a disruption of the silence as a carefully-measured, respectful step around it.</p>
+
+	<p class="indent">The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
+
+</blockquote>
+
+###### 2. Leave a line between paragraphs.
+
+<blockquote class="good">
+	<p>The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
+
+	<p>Birds sang, leaves rustled in the gentle breeze, and the world was otherwise silent. Then came the soft padding of hooves – not a so much a disruption of the silence as a carefully-measured, respectful step around it.</p>
+
+	<p>The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
+</blockquote>
+
+###### 3. Leave a line between paragraphs and indent their first lines.
+
+<blockquote class="good">
+	<p class="indent">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
+	 
+	<p class="indent">Birds sang, leaves rustled in the gentle breeze, and the world was otherwise silent. Then came the soft padding of hooves – not a so much a disruption of the silence as a carefully-measured, respectful step around it.</p>
+	 
+	<p class="indent">The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
+</blockquote>
+
+When indenting, [some like to leave the first paragraph under the story/chapter heading unindented](http://en.wikipedia.org/wiki/Paragraph#Paragraph_breaks), likely because indentation serves to separate paragraphs from each other and the first paragraph does not need to be separated from anything. I personally like this style and have seen it done in just about every book I own, but some professional publishers and a lot of people in this fandom prefer to indent every paragraph. Go with what you like best.
 
 [% END %]
