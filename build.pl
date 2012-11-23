@@ -120,7 +120,7 @@ for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 			. '<a id="%s" href="#Contents">Back to top</a>'
 		. '</p>' . "\n" 
 		. '<div class="clearfix"></div>' . "\n",
-		@headers[-1]->{href};
+		$headers[-1]->{href};
 
 	}
 }
