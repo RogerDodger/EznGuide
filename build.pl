@@ -107,7 +107,6 @@ $tree->parse($content);
 $tree->eof;
 my @headers;
 for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
-	say $e->as_HTML;
 	if( (my $index = index $content, $e->as_HTML ) >= 0 ) {
 		substr($content, $index, 0 ) = sprintf
 		  '<p class="backtop">'
