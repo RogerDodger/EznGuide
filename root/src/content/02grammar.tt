@@ -128,80 +128,58 @@ I believe that a lot of people don’t understand this rule because of paragraph
 
 ### Said Tags
 
-The **second most important rule of dialogue** is actually a whole lot of rules: the nuances of dialogue punctuation. New writers are always getting this wrong in some way or another, because it’s kind of complicated and finicky. While dialogue punctuation does have a lot of rules, ninety-nine percent of the time, you’ll only need to keep two or three in mind.
+The **second most important rule of dialogue** is actually a whole lot of rules: the nuances of dialogue punctuation. New writers are always getting this wrong in some way or another, because it’s kind of complicated and finicky. While dialogue punctuation does have a lot of rules, ninety-nine percent of the time, you’ll only need to keep these few in mind:
 
-Here are the three most important rules of dialogue punctuation:
+1. Dialogue which precedes a said tag (some variation of “said Character”) can end in a comma, or an exclamation point, or a question mark, or an ellipsis, but never a full stop (or “period”).
 
-<ol>
-	<li>
-		<p>Dialogue which precedes a said tag (some variation of “said Character”) can end in a comma, or an exclamation point, or a question mark, or an ellipsis, but never a full stop (or “period”).</p>
+	<h6>Right</h6>
 
-		<h6>Right:</h6>
-		<ul class="good">
-			<li>“I hope I get around to doing some reading today,” said Twilight Sparkle.</li>
-			<li>“I really want to do some reading today!” shouted Twilight Sparkle.</li>
-			<li>“Will I get any reading done today?” asked Twilight Sparkle.</li>
-		</ul>
+	* <span class="good">“I hope I get around to doing some reading today,” said Twilight Sparkle.</span>
+	* <span class="good">“I really want to do some reading today!” shouted Twilight Sparkle.</span>
+	* <span class="good">“Will I get any reading done today?” asked Twilight Sparkle.</span>
 
-		<h6>Wrong:</h6>
-		<ul class="bad">
-			<li>“I hope I get around to doing some reading today.” said Twilight Sparkle.</li>
-		</ul>
-	</li>
+	<h6>Wrong:</h6>
+	
+	* <span class="bad">“I hope I get around to doing some reading today.” said Twilight Sparkle.</span>
 
-	<li>
-		<p>Said tags are never capitalised. They are not complete sentences, and they should not ever follow full stops (as stated above). Think of them as the <strong>subject</strong> and <strong>verb</strong> of a sentence that has the dialogue you’re applying them to as its <strong>object</strong>. You don’t write “<span class="bad">The boy kicked. The ball.</span>” so you shouldn’t write “&thinsp;<span class="bad">‘Hello.’ He said.</span>” either.</p>
+2. Said tags are never capitalised. They are not complete sentences, and they should not ever follow full stops (as stated above). Think of them as the **subject** and **verb** of a sentence that has the dialogue you’re applying them to as its **object**. You don’t write “<span class="bad">The boy kicked. The ball.</span>” so you shouldn’t write “&thinsp;<span class="bad">‘Hello.’ He said.</span>” either.
 
-		<h6>Wrong:</h6>
-		<ul class="bad">
-			<li>“I hope I get around to doing some reading today.” Said Twilight Sparkle.</li>
-			<li>“I hope I get around to doing some reading today,” Said Twilight Sparkle.</li>
-		</ul>
-	</li>
+	<h6>Wrong:</h6>
+	
+	* <span class="bad">“I hope I get around to doing some reading today.” Said Twilight Sparkle.</span>
+	* <span class="bad">“I hope I get around to doing some reading today,” Said Twilight Sparkle.</span>
 
-	<li>
-		<p>Dialogue which is split in half by a said tag will either form a single sentence or two separate sentences. It should be formatted to reflect that.</p>
+3. Dialogue which is split in half by a said tag will either form a single sentence or two separate sentences. It should be formatted to reflect that.</p>
 
-		<ul>
-			<li>A single sentence: <span class="good">“I love bunnies, and also ducks.”</span></li>
-			<li>Two sentences: <span class="good">“I do so enjoy coming up with ideas for dresses. Not all of them get made, though.”</span></li>
-		</ul>
+	* A single sentence: <span class="good">“I love bunnies, and also ducks.”</span>
+	* Two sentences: <span class="good">“I do so enjoy coming up with ideas for dresses. Not all of them get made, though.”</span>
 
-		<h6>Right:</h6>
-		<ul class="good">
-			<li>“I love bunnies,” said Fluttershy, “and also ducks.”</li>
-			<li>“I do so enjoy coming up with ideas for dresses,” said Rarity. “Not all of them get made, though.”</li>
-		</ul>
+	<h6>Right:</h6>
 
-		<h6>Wrong:</h6>
-		<ul class="bad">
-			<li>“I love bunnies.” said Fluttershy, “and also ducks.”</li>
-			<li>“I do so enjoy coming up with ideas for dresses,” said Rarity, “Not all of them get made, though.”</li>
-		</ul>
+	* <span class="good">“I love bunnies,” said Fluttershy, “and also ducks.”</span>
+	* <span class="good">“I do so enjoy coming up with ideas for dresses,” said Rarity. “Not all of them get made, though.”</span>
 
-		<p class="noafter">As you can see, the two wrong examples give you these badly punctuated messes:</p>
-		<ul class="bad">
-			<li>“I love bunnies. and also ducks.”</li>
-			<li>“I do so enjoy coming up with ideas for dresses, Not all of them get made, though.”</li>
-		</ul>
-	</li>
-</ol>
- 
-If a said tag precedes dialogue, you can do this:
+	<h6>Wrong:</h6>
 
-<blockquote class="good">
-	<p>Applejack said, “Don’t you muddy the issue with your fancy mathematics!”</p>
-</blockquote>
+	* <span class="bad">“I love bunnies.” said Fluttershy, “and also ducks.”</span></li>
+	* <span class="bad">“I do so enjoy coming up with ideas for dresses,” said Rarity, “Not all of them get made, though.”</span>
+
+	<p class="noafter">As you can see, the two wrong examples give you these badly punctuated messes:</p>
+	
+	* <span class="bad">“I love bunnies. and also ducks.”</span>
+	* <span class="bad">“I do so enjoy coming up with ideas for dresses, Not all of them get made, though.”</span>
+
+4. If a said tag precedes dialogue, you introduce the dialogue with a comma:
+
+	* <span class="good">Applejack said, “Don’t you muddy the issue with your fancy mathematics!”</span>
 
 ### Action Tags
 
 If you really want to end your dialogue with full stop instead of a comma, consider using an **action tag** instead of a traditional said tag. For example:
 
-<ul class="good">
-	<li>“Why do they call it a hacksaw? You don’t hack with it.” Pinkie Pie ran a hoof across the flat of her saw’s blade.</li>
-	<li>Rainbow Dash did three sonic rainbooms in quick succession. “I’m so awesome!”</li>
-	<li>“I do so enjoy coming up with ideas for dresses.” Rarity looked up wistfully. “Not all of them get made, though.”</li>
-</ul>
+* <span class="good">“Why do they call it a hacksaw? You don’t hack with it.” Pinkie Pie ran a hoof across the flat of her saw’s blade.</span>
+* <span class="good">Rainbow Dash did three sonic rainbooms in quick succession. “I’m so awesome!”</span>
+* <span class="good">“I do so enjoy coming up with ideas for dresses.” Rarity looked up wistfully. “Not all of them get made, though.”</span>
 
 Action tags are a fun way to get out of writing said/asked/exclaimed/shouted/etc over and over again. The really great thing about them is they’re not so much “dialogue tags” as they are regular bits of narration that, when put next to a piece of dialogue, show that the character doing the action was the one speaking. They also don’t require finicky dialogue punctuation!
 
@@ -220,5 +198,7 @@ However, there’s no reason not to use dashes instead!
 <blockquote class="good">
 	<p>“Derpy, muffins don’t” – Carrot Top put a hoof to her forehead – “grow into muffin trees when you bury them in the ground.”</p>
 </blockquote>
+
+### Miscellaneous
 
 [% END %]
