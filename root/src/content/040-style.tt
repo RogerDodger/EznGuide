@@ -1,0 +1,20 @@
+[% FILTER markdown %]
+
+Style
+=====
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+And now we get into the subjective part of my little guide – the part where I’m going to tell you a bit about how I write, what I like to read in the writing of others, and what little affectations I absolutely hate to see in any writing ever. It’s all opinions from here on in, but I like to think that I’ve substantiated most of them.
+
+See how I started that first sentence with an “and”? While your school teachers may have drummed the incorrectness of doing so into your little heads, there is actually no language rule that says you aren’t allowed to start a sentence with the word “and” (or the word “but”, for that matter). However, this doesn’t mean that your teachers were completely insane, or that they made up rules to torment you with.
+
+But I don’t think that they should have been quite so harsh on you. And anyway, doesn’t English already have enough rules? And starting sentences with “and” works nicely sometimes; there are cases – mostly in dialogue – where it feels natural. But it only works if it isn’t overused.
+
+This little debate highlights the difference between grammar and style. Being a good little writer and following the rules of grammar and spelling doesn’t get you a gold star – it *should* be something writers do automatically, before even considering letting others look at their work. Good style is what makes a story readable.
+
+I cannot overemphasise the importance of developing a good writing style. All the novel ideas, clever plot twists and compelling characters in the world are worth nothing if they’re not effectively portrayed by good writing.
+
+With that said, let’s jump into the gritty details!
+
+[% END %]

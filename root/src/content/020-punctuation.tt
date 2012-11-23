@@ -1,7 +1,7 @@
 [% FILTER markdown %]
 
-Grammar
-=======
+Punctuation
+===========
 
 <p class="timestamp">Last modified: [% template.modtime | time %]</p>
 
@@ -199,6 +199,36 @@ However, there’s no reason not to use dashes instead!
 	<p>“Derpy, muffins don’t” – Carrot Top put a hoof to her forehead – “grow into muffin trees when you bury them in the ground.”</p>
 </blockquote>
 
-### Miscellaneous
+### Miscellaneous Punctuation
+
+Something interesting I learnt about dialogue punctuation while writing Long Distance is that when writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
+
+<blockquote class="good">
+	<p>
+		“The glyph upon my flank describes a very delicate mission <br> 
+		It compels me to prevent international peace attrition.
+	</p>
+	<p>
+		“Or, to put it in a fashion more clear-spoken and plain<br>
+		Means my job is full of pony-zebra friendships to maintain.
+	</p>
+	<p>
+		“By travelling deep into pony country and living among you<br>
+		I hope to understand, and discover what is true.”
+	</p>
+</blockquote>
+
+It makes my “programmer’s incomplete parenthesis” sense tingle, but that’s the way it’s supposed to be done. I guess the open quotations serve as a reminder to the reader that the dialogue from the previous paragraph is still going on.
+
+Before I defer to better sources, one last thing:
+
+<p class="center golden">If someone is being addressed in dialogue, a comma should appear before their name.</p>
+
+* <span class="good">“How are you today, Twilight?”</span>
+* <span class="good">“Would you like to help me bake cupcakes, Rainbow Dash?”</span>
+* <span class="good">“Get over here now, Applejack!”</span>
+* <span class="good">“That’ll do, pig. That’ll do.”</span>
+
+[This article](http://theeditorsblog.net/2010/12/08/punctuation-in-dialogue/) on The Editor's Blog, and [this article](http://www.be-a-better-writer.com/punctuate-dialogue.html) on Be A Better Writer explain the more obscure rules of dialogue punctuation better than I could hope to.
 
 [% END %]
