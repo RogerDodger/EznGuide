@@ -105,6 +105,7 @@ my $tree = HTML::TreeBuilder->new;
 $tree->no_expand_entities(1);
 $tree->parse($content);
 $tree->eof;
+
 my @headers;
 for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 	if( (my $index = index $content, $e->as_HTML ) >= 0 ) {
@@ -115,6 +116,7 @@ for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 			contents => join '', map { ref $_ ? $_->as_HTML : $_ } $e->content_list,
 		}; 
 
+		#Prepend an anchor to the header
 		substr($content, $index, 0 ) = sprintf
 		  '<p class="backtop">'
 			. '<a id="%s" href="#Contents">Back to top</a>'
