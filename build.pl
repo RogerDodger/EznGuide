@@ -100,34 +100,6 @@ for my $fn ( glob "content/*" ) {
 }
 chdir('../static');
 
-#Process headings
-my $tree = HTML::TreeBuilder->new;
-$tree->no_expand_entities(1);
-$tree->parse($content);
-$tree->eof;
-
-my @headers;
-for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
-	if( (my $index = index $content, $e->as_HTML ) >= 0 ) {
-
-		push @headers, { 
-			class    => $e->tag,
-			href     => simple_uri( $e->as_text ),
-			contents => join '', map { ref $_ ? $_->as_HTML : $_ } $e->content_list,
-		}; 
-
-		#Prepend an anchor to the header
-		substr($content, $index, 0 ) = sprintf
-		  '<p class="backtop">'
-			. '<a id="%s" href="#Contents">Back to top</a>'
-		. '</p>' . "\n" 
-		. '<div class="clearfix"></div>' . "\n",
-		$headers[-1]->{href};
-
-	}
-}
-$stash->set('headers', \@headers);
-
 #Process footnotes
 my @footnotes;
 
@@ -187,6 +159,33 @@ if( @footnotes = map { ref $_ ? @$_ : $_ } @footnotes )
 	$content .= "</ul>\n";
 }
 
+#Process headings
+my $tree = HTML::TreeBuilder->new;
+$tree->no_expand_entities(1);
+$tree->parse($content);
+$tree->eof;
+
+my @headers;
+for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
+	if( (my $index = index $content, $e->as_HTML ) >= 0 ) {
+
+		push @headers, { 
+			class    => $e->tag,
+			href     => simple_uri( $e->as_text ),
+			contents => join '', map { ref $_ ? $_->as_HTML : $_ } $e->content_list,
+		}; 
+
+		#Prepend an anchor to the header
+		substr($content, $index, 0 ) = sprintf
+		  '<p class="backtop">'
+			. '<a id="%s" href="#Contents">Back to top</a>'
+		. '</p>' . "\n" 
+		. '<div class="clearfix"></div>' . "\n",
+		$headers[-1]->{href};
+
+	}
+}
+$stash->set('headers', \@headers);
 $stash->set('content', $content);
 
 #Process wrapper
