@@ -126,7 +126,6 @@ $stash->set('headers', \@headers);
 
 #Process footnotes
 my @footnotes;
-my $n = 0;
 
 my $b = quotemeta( my $begin_tag = '[[' );
 my $e = quotemeta( my $end_tag = ']]' );
@@ -158,16 +157,17 @@ for ( my $i = 0; $i <= $#tokens; $i++ )
 	}
 }
 
-if( @footnotes ) {
+if( @footnotes = map { ref $_ ? @$_ : $_ } @footnotes ) 
+{
 	my $footref_fmt = '<sup><a id="foot-%s" href="#foot-%s">%d</a></sup>';
 	$content .= '
 	<h1>Footnotes</h1>
 	<ul class="footnotes">
 	';
-	for my $footnote ( map { ref $_ ? @$_ : $_ } @footnotes ) 
+	for(my $n = 1; $n <= @footnotes; $n++) 
 	{
-		$n++;
-		
+		my $footnote = $footnotes[$n - 1];
+
 		#Replace content with numbered foot reference
 		substr(
 			$content, 
