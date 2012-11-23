@@ -116,9 +116,9 @@ for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 		simple_uri $e->as_text;
 		(my $level = $e->tag) =~ s/h//;
 		push @headers, { 
-			contents => $e->as_text, 
 			level    => $level,
 			href     => simple_uri( $e->as_text ),
+			contents => join '', map { ref $_ ? $_->as_HTML : $_ } $e->content_list
 		}; 
 	}
 }

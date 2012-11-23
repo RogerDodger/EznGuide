@@ -9,57 +9,6 @@ A lot of what makes a work of fiction (or any piece of writing) good is subjecti
 
 As for the evolution of language... well, I can see the merit and importance of that, but there’s a difference between language evolving and you being too lazy to express yourself in a clear and readable manner. Again, learn the rules before breaking them.
 
-Formatting
-----------
-
-Equestria Daily advises writers to follow one of three rules when paragraphing:
-
-###### 1. Indent the first lines of every paragraph.
-
-<blockquote class="good">
-
-	<p class="indent noafter">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
-
-	<p class="indent noafter">Birds sang, leaves rustled in the gentle breeze, and the world was otherwise silent. Then came the soft padding of hooves – not a so much a disruption of the silence as a carefully-measured, respectful step around it.</p>
-
-	<p class="indent">The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
-
-</blockquote>
-
-###### 2. Leave a line between paragraphs.
-
-<blockquote class="good">
-
-	<p>The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
-
-	<p>Birds sang, leaves rustled in the gentle breeze, and the world was otherwise silent. Then came the soft padding of hooves – not a so much a disruption of the silence as a carefully-measured, respectful step around it.</p>
-
-	<p>The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
-
-</blockquote>
-
-###### 3. Leave a line between paragraphs and indent their first lines.
-
-<blockquote class="good">
-
-	<p class="indent">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
-	 
-	<p class="indent">Birds sang, leaves rustled in the gentle breeze, and the world was otherwise silent. Then came the soft padding of hooves – not a so much a disruption of the silence as a carefully-measured, respectful step around it.</p>
-	 
-	<p class="indent">The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
-
-</blockquote>
-
-When indenting, [some like to leave the first paragraph under the story/chapter heading unindented](http://en.wikipedia.org/wiki/Paragraph#Paragraph_breaks), likely because indentation serves to separate paragraphs from each other and the first paragraph doesn’t need to be separated from anything. I personally like this style and have seen it done in just about every book I own, but some professional publishers and a lot of people in this fandom prefer to indent every paragraph. Go with what you like best.
-
-It’s good practice to make use of Google Docs’s ruler or your word processor’s paragraph formatting features to indent, rather than just pressing TAB at the start of each paragraph. Amongst other things, this gives you greater control over the size of your indents.
-
-Which format you choose is a matter of taste, but you *must* choose one and stick with it. If readers can’t distinguish between paragraphs, they will not be able to distinguish whether or not your story is any good, and they will banish it from their sight.
-
-Personally, I like the second option. The first makes sense for printed books (not the Internet, with its infinite page space), and third is (in my opinion) overkill. That said, feel free to use any of them.
-
-I’ll be discussing formatting more in the section of this guide that deals with style.
-
 Paragraphing
 ------------
 
@@ -187,7 +136,7 @@ Action tags are a fun way to get out of writing said/asked/exclaimed/shouted/etc
 	<p>The sun was low in the sky and all the ponies of Ponyville were heading inside to get ready for bed. Owlocious stood vigil on one of the branches of Twilight’s tree library. “Hoo.”</p>
 </blockquote>
 
-But wait! These action tags only work if you insert them between complete sentences of dialogue, and sometimes you need to have some action interrupt a piece of dialogue right in the middle of a sentence. Obviously, you can't do that with commas, because then you’d have icky comma splices:
+But wait! These action tags only work if you insert them between complete sentences of dialogue, and sometimes you need to have some action interrupt a piece of dialogue right in the middle of a sentence. Obviously, you can’t do that with commas, because then you’d have icky comma splices:
 
 <blockquote class="bad">
 	<p>“Derpy, muffins don’t,” Carrot Top put a hoof to her forehead, “grow into muffin trees when you bury them in the ground.”</p>
@@ -199,7 +148,7 @@ However, there’s no reason not to use dashes instead!
 	<p>“Derpy, muffins don’t” – Carrot Top put a hoof to her forehead – “grow into muffin trees when you bury them in the ground.”</p>
 </blockquote>
 
-### Miscellaneous Punctuation
+### Miscellaneous <span class="hidden">Dialogue Punctuation</span>
 
 Something interesting I learnt about dialogue punctuation while writing Long Distance is that when writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
 
@@ -229,6 +178,6 @@ Before I defer to better sources, one last thing:
 * <span class="good">“Get over here now, Applejack!”</span>
 * <span class="good">“That’ll do, pig. That’ll do.”</span>
 
-[This article](http://theeditorsblog.net/2010/12/08/punctuation-in-dialogue/) on The Editor's Blog, and [this article](http://www.be-a-better-writer.com/punctuate-dialogue.html) on Be A Better Writer explain the more obscure rules of dialogue punctuation better than I could hope to.
+[This article](http://theeditorsblog.net/2010/12/08/punctuation-in-dialogue/) on The Editor’s Blog, and [this article](http://www.be-a-better-writer.com/punctuate-dialogue.html) on Be A Better Writer explain the more obscure rules of dialogue punctuation better than I could hope to.
 
 [% END %]

@@ -7,14 +7,82 @@ Style
 
 And now we get into the subjective part of my little guide – the part where I’m going to tell you a bit about how I write, what I like to read in the writing of others, and what little affectations I absolutely hate to see in any writing ever. It’s all opinions from here on in, but I like to think that I’ve substantiated most of them.
 
-See how I started that first sentence with an “and”? While your school teachers may have drummed the incorrectness of doing so into your little heads, there is actually no language rule that says you aren’t allowed to start a sentence with the word “and” (or the word “but”, for that matter). However, this doesn’t mean that your teachers were completely insane, or that they made up rules to torment you with.
+See how I started that first sentence with an “and”? While your schoolteachers may have drummed the incorrectness of doing so into your little heads, there is actually no language rule that says you aren’t allowed to start a sentence with the word “and” (or the word “but”, for that matter). However, this doesn’t mean that your teachers were completely insane, or that they made up rules to torment you with.
 
 But I don’t think that they should have been quite so harsh on you. And anyway, doesn’t English already have enough rules? And starting sentences with “and” works nicely sometimes; there are cases – mostly in dialogue – where it feels natural. But it only works if it isn’t overused.
 
-This little debate highlights the difference between grammar and style. Being a good little writer and following the rules of grammar and spelling doesn’t get you a gold star – it *should* be something writers do automatically, before even considering letting others look at their work. Good style is what makes a story readable.
+This little debate highlights the difference between grammar and style. Being a good little writer and following the rules of grammar, punctuation, and spelling doesn’t get you a gold star – it *should* be something writers do automatically, before even considering letting others look at their work. And even if your work is entirely grammatically correct, it may still be confusing or irritating to read.
 
-I cannot overemphasise the importance of developing a good writing style. All the novel ideas, clever plot twists and compelling characters in the world are worth nothing if they’re not effectively portrayed by good writing.
+Developing a good style is about learning how to manipulate the way you write to convey the ideas, feelings and worlds that you want to in a way that is clear and makes the reader want to read more. Unlike with grammar, there are no specific rules and systems that will guarantee you do things right every time, but there are a number of hints that can get you started.
 
-With that said, let’s jump into the gritty details!
+Formatting
+----------
+
+Proper formatting is literally the difference between having an indecipherable mishmash of symbols and having something that looks like a readable piece of writing.
+
+### Sentence spacing
+
+A single, standard space should be used to separate sentences.
+
+Do not use two spaces. [This practice was introduced as a workaround for when the fixed-width fonts of mechanical typewriters made sentences blend together](http://www.slate.com/articles/technology/technology/2011/01/space_invaders.html), and it is no longer necessary in this modern world of variable-width fonts. Please use find-and-replace to substitute every instance of <span style="white-space: pre">“  ”</span> with “ ”. Or, if you really like that extra spacing, consider replacing double spaces with single [en spaces](http://en.wikipedia.org/wiki/Space_(punctuation)#Spaces_in_Unicode) (“&ensp;”) to prevent the second space from going to the next line on its own and ruining your margin.
+
+### Paragraph spacing
+
+Paragraph spacing is necessary to allow readers to unambiguously identify where one paragraph ends
+and another begins. There are two primary methods for spacing paragraphs:
+
+__Indentation__ is used most commonly in media where there is limited space. Almost all books, magazines, newspapers – anything intended to be viewed on print – use indents, as they separate paragraphs while using a minimal amount of space. Since the purpose of indenting is to separate paragraphs, the ﬁrst paragraph of any section need not be indented.
+
+<blockquote>
+	<p class="noafter good">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
+
+	<p class="indent noafter good">Birds sang, leaves rustled in the gentle breeze, and the world was otherwise silent. Then came the soft padding of hooves – not so much a disruption of the silence as a carefully-measured, respectful step around it.</p>
+
+	<p class="indent good">The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
+</blockquote>
+
+It’s good practice to make use of Google Docs’s ruler or your word processor’s paragraph formatting features to indent, rather than just pressing <kbd>tab</kbd> at the start of each paragraph. Amongst other things, this gives you greater control over the size of your indents.
+
+__Double spacing__ between paragraphs is more common in electronic media where the amount of space is much less ﬁnite. In a typical typesetting environment, double spacing is achieved by telling the typesetting software the amount of desired space between paragraphs. However, since most people will be submitting works through Fimfiction, the alternative is to insert a blank line between each paragraph. [[For fanﬁction – and most anything else intended to be submitted to web-based addresses – this is perfectly acceptable. It's a fact of the medium that some concessions must be made in the way of typesetting. However, for any future professional endeavours you might have, you should be using the paragraph-spacing settings of your word processor.]]
+
+<blockquote>
+	<p class="good">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
+
+	<p class="good">Birds sang, leaves rustled in the gentle breeze, and the world was otherwise silent. Then came the soft padding of hooves – not so much a disruption of the silence as a carefully-measured, respectful step around it.</p>
+
+	<p class="good">The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
+</blockquote>
+
+Since the purpose of paragraph spacing is to identify paragraph separation, simultaneous use of both
+formats is redundant.
+
+Which format you choose is a matter of taste, but you *must* choose one and stick with it. If readers can’t distinguish between paragraphs, they won’t be able to distinguish whether or not your story is any good, and they will banish it from their sight.
+
+Personally, I like the second option. The first makes sense for printed books – not the Internet, with its infinite page space. That said, feel free to use either of them.
+
+### Section spacing
+
+When a large change in scenery happens, you need to communicate that to the reader somehow. In some cases this can be worked into the prose, but other times it's better done through the use of scene breaks. Scene breaks come in all shapes in sizes:
+
+* An HTML horizontal line
+* A lightweight centred image (for example, in _[The Glass Blower](http://www.fimfiction.net/story/3228/The-Glass-Blower)_)
+* Centre-aligned asterisks
+* Centre-aligned hyphens
+* Some thematic symbol in its own paragraph (for example, _[Black and White](http://www.fimfiction.net/story/8175/1/Black-and-White)_ uses a centre-aligned double quaver)
+
+As always, consistency is key.
+
+In addtion, sometimes you need a scene break that just doesn't quite justify the full weight of a proper scene break. For that, there's weak scene breaks:
+
+* When using _indented paragraphs_, weak scene breaks can be indicated by inserting a blank line and then resetting the indent.
+* When using _double spaced paragraphs_, weak scene breaks may be indicated by inserting a blank paragraph.
+
+Ending sentences with a preposition
+-----------------------------------
+
+> _“Ending a sentence with a preposition is something up with which I will not put.”_  
+> —Winston Churchill
+
+Much like starting a sentence with “and” or “but”, ending a sentence with a [preposition](http://www.writingcentre.uottawa.ca/hypergrammar/preposit.html) is not technically wrong, despite what your English teacher may have told you. It is sometimes bad form, yes, but only when there are more elegant alternatives. When there are none, as is the case with Mr Churchill’s quote, it’s okay to end with a preposition.
 
 [% END %]
