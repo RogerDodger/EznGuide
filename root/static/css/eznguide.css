@@ -193,6 +193,18 @@ ul.footnotes li {
 .contents ul li {
     list-style-type: none;
 }
+.contents li.h1 {
+    text-indent: 2em;
+}
+.contents li.h2 {
+    text-indent: 4em;
+}
+.contents li.h3 {
+    text-indent: 6em;
+}
+.contents li.h4 {
+    text-indent: 8em;
+}
 
 .backtop {
     float: right;

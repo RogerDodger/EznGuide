@@ -54,7 +54,7 @@
 			
 				<ul>
 				[%- FOREACH header IN headers %]
-					<li style="text-indent: [% header.level * 2 %]em">
+					<li class="[% header.class %]">
 						<a href="#[% header.href %]">[% header.contents %]</a>
 					</li>
 				[%- END %]

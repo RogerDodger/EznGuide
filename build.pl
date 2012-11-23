@@ -108,18 +108,20 @@ $tree->eof;
 my @headers;
 for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 	if( (my $index = index $content, $e->as_HTML ) >= 0 ) {
+
+		push @headers, { 
+			class    => $e->tag,
+			href     => simple_uri( $e->as_text ),
+			contents => join '', map { ref $_ ? $_->as_HTML : $_ } $e->content_list,
+		}; 
+
 		substr($content, $index, 0 ) = sprintf
 		  '<p class="backtop">'
 			. '<a id="%s" href="#Contents">Back to top</a>'
 		. '</p>' . "\n" 
 		. '<div class="clearfix"></div>' . "\n",
-		simple_uri $e->as_text;
-		(my $level = $e->tag) =~ s/h//;
-		push @headers, { 
-			level    => $level,
-			href     => simple_uri( $e->as_text ),
-			contents => join '', map { ref $_ ? $_->as_HTML : $_ } $e->content_list,
-		}; 
+		@headers[-1]->{href};
+
 	}
 }
 $stash->set('headers', \@headers);
