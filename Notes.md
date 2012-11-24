@@ -3,7 +3,6 @@ Misc notes
 
 ### 020-punctuation.tt
 
-* Line 55 - Comment on FimFiction removed since it's incorrect
 * Lines 117–123 - It's impossible to demonstrate the appeared wrapping in this example because of the fluid layout
 * Line 205 - Seems incoherent
 * Line 225 - Footnote seems incoherent
@@ -16,3 +15,4 @@ Misc notes
 
 * Line 24 - I was about to sharpie all over this bastard until I read the next paragraph...
 * Line 30 - Is the Comic Sans necessary? In any case, this paragraph probably needs touching up.
+* Line 68 - Comment on FimFiction removed since it's incorrect

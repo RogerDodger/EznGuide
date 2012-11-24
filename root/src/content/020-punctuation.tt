@@ -37,39 +37,31 @@ The **most important rule of dialogue** is this:
 
 For example:
 
-<blockquote class="good">
-	<p>“MAKING CUPCAKES!” Pinkie happily announced.</p>
-
-	<p>“Baking?” Dash was disappointed. “Pinkie, you know I’m not good at baking. Remember last time?”</p>
-
-	<p>“Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
-</blockquote>
+> <p class="good">“MAKING CUPCAKES!” Pinkie happily announced.</p>
+>
+> <p class="good">“Baking?” Dash was disappointed. “Pinkie, you know I’m not good at baking. Remember last time?”</p>
+>
+> <p class="good">“Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
 
 Or even:
 
-<blockquote class="good">
-	<p class="indent noafter">“MAKING CUPCAKES!” Pinkie happily announced.</p>
-
-	<p class="indent noafter">“Baking?” Dash was disappointed. “Pinkie, you know I’m not good at baking. Remember last time?”</p>
-
-	<p class="indent">“Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
-</blockquote>
+> <p class="indent noafter good">“MAKING CUPCAKES!” Pinkie happily announced.</p>
+>
+> <p class="indent noafter good">“Baking?” Dash was disappointed. “Pinkie, you know I’m not good at baking. Remember last time?”</p>
+>
+> <p class="indent good">“Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
 
 But *not*:
 
-<blockquote class="bad">
-	<p>“MAKING CUPCAKES!” Pinkie happily announced. “Baking?” Dash was disappointed. “Pinkie, you know I’m not good at baking. Remember last time?” “Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
-</blockquote>
+> <p class="bad">“MAKING CUPCAKES!” Pinkie happily announced. “Baking?” Dash was disappointed. “Pinkie, you know I’m not good at baking. Remember last time?” “Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
 
 It’s also wrong to just put new dialogue on a new line, because it’s bad practice to separate any kind of paragraph without using indentation or vertical space (these kinds of breaks are completely invisible if the last line of your first paragraph happens to be the same width as the page it’s on).
 
-<blockquote class="bad">
-	<p class="noafter">“MAKING CUPCAKES!” Pinkie happily announced.</p>
-
-	<p class="noafter">“Baking?” Dash was disappointed. “Pinkie, you know I’m not good at baking. Remember last time?”</p>
-
-	<p>“Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
-</blockquote>
+> <p class="noafter bad">“MAKING CUPCAKES!” Pinkie happily announced.</p>
+>
+> <p class="noafter bad">“Baking?” Dash was disappointed. “Pinkie, you know I’m not good at baking. Remember last time?”</p>
+>
+> <p class="bad">“Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
 
 I believe that a lot of people don’t understand this rule because of paragraphing format #1 (in the section on paragraphing above), which is commonly used in printed books. As indents are not as noticeable as empty lines, novice writers believe that they can lump all their dialogue in one paragraph, because “that’s how it’s done in books”. **This is unequivocally wrong.**
 
@@ -132,40 +124,28 @@ If you really want to end your dialogue with full stop instead of a comma, consi
 
 Action tags are a fun way to get out of writing said/asked/exclaimed/shouted/etc over and over again. The really great thing about them is they’re not so much “dialogue tags” as they are regular bits of narration that, when put next to a piece of dialogue, show that the character doing the action was the one speaking. They also don’t require finicky dialogue punctuation!
 
-<blockquote class="good">
-	<p>The sun was low in the sky and all the ponies of Ponyville were heading inside to get ready for bed. Owlocious stood vigil on one of the branches of Twilight’s tree library. “Hoo.”</p>
-</blockquote>
+> <p class="good">The sun was low in the sky and all the ponies of Ponyville were heading inside to get ready for bed. Owlocious stood vigil on one of the branches of Twilight’s tree library. “Hoo.”</p>
 
 But wait! These action tags only work if you insert them between complete sentences of dialogue, and sometimes you need to have some action interrupt a piece of dialogue right in the middle of a sentence. Obviously, you can’t do that with commas, because then you’d have icky comma splices:
 
-<blockquote class="bad">
-	<p>“Derpy, muffins don’t,” Carrot Top put a hoof to her forehead, “grow into muffin trees when you bury them in the ground.”</p>
-</blockquote>
+> <p class="bad">“Derpy, muffins don’t,” Carrot Top put a hoof to her forehead, “grow into muffin trees when you bury them in the ground.”</p>
 
 However, there’s no reason not to use dashes instead!
 
-<blockquote class="good">
-	<p>“Derpy, muffins don’t” – Carrot Top put a hoof to her forehead – “grow into muffin trees when you bury them in the ground.”</p>
-</blockquote>
+> <p class="good">“Derpy, muffins don’t” – Carrot Top put a hoof to her forehead – “grow into muffin trees when you bury them in the ground.”</p>
 
 ### Miscellaneous <span class="hidden">dialogue punctuation</span>
 
 Something interesting I learnt about dialogue punctuation while writing Long Distance is that when writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
 
-<blockquote class="good">
-	<p>
-		“The glyph upon my flank describes a very delicate mission <br> 
-		It compels me to prevent international peace attrition.
-	</p>
-	<p>
-		“Or, to put it in a fashion more clear-spoken and plain<br>
-		Means my job is full of pony-zebra friendships to maintain.
-	</p>
-	<p>
-		“By travelling deep into pony country and living among you<br>
-		I hope to understand, and discover what is true.”
-	</p>
-</blockquote>
+> <p class="good">“The glyph upon my flank describes a very delicate mission <br> 
+> It compels me to prevent international peace attrition.</p>
+>
+> <p class="good">“Or, to put it in a fashion more clear-spoken and plain<br>
+> Means my job is full of pony-zebra friendships to maintain.</p>
+>
+> <p class="good">“By travelling deep into pony country and living among you<br>
+> I hope to understand, and discover what is true.”</p>
 
 It makes my “programmer’s incomplete parenthesis” sense tingle, but that’s the way it’s supposed to be done. I guess the open quotations serve as a reminder to the reader that the dialogue from the previous paragraph is still going on.
 
