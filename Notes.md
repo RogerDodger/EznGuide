@@ -11,7 +11,7 @@ Misc notes
 * Line 256 - I added a footnote about large numbers
 * Line 260 - It took me a while to realise what this line was talking about, because without a monospaced font it's hard to see the difference. I put them in a code block so that it's easier to see the difference.
 
-## 040-style.tt
+### 040-style.tt
 
 * Line 24 - I was about to sharpie all over this bastard until I read the next paragraph...
 * Line 30 - Is the Comic Sans necessary? In any case, this paragraph probably needs touching up.
