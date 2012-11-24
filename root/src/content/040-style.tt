@@ -15,6 +15,30 @@ This little debate highlights the difference between grammar and style. Being a 
 
 Developing a good style is about learning how to manipulate the way you write to convey the ideas, feelings and worlds that you want to in a way that is clear and makes the reader want to read more. Unlike with grammar, there are no specific rules and systems that will guarantee you do things right every time, but there are a number of hints that can get you started.
 
+Being laconic
+-------------
+
+> _“Brevity is the soul of wit.”_  
+> —William Shakespeare
+
+When I began to write this guide, it seemed to be rather difficult to know what to put into it, due to the fact that there’s just so very much to say about language usage and story writing, and most of it is subjective and open to interpretation. In the end, I decided to just write my opinions on writing, and explain them as best I could.
+
+My first set of opinions has to do with a few words and phrases I used in the above paragraph.
+
+1. “began to verb” — This is something that I see a lot of in amateur writing, and it really irritates me. Wounds begin to bleed, opponents begin to fight, and barrels start rolling down hills. It’s stilted and usually meaningless – why not just say that the wound bled, or the opponents fought, or the barrel rolled down the hill? Saying “started to” or “began” doesn’t add any depth to your description of the event, so you may as well leave it out. There are, however, some cases where this is appropriate.
+
+2. “seemed to be rather” — Spineless language use. This is your story – you’re telling us that something happened; <span style="font-family: 'Comic Sans MS'">you’re MAKING this HAPPEN, bro.</span> Don’t be so wish-washy about it – say that something was something else, not that it was “rather something else”. Dispense with “seemed to”, “appeared to”, “managed to”, and all other wobbly constructs if they add nothing to your sentences. Use metaphors instead of similes.
+
+3. “the fact that” — This phrase is the common man’s “like”. It adds nothing, and should you find yourself using it, get to reordering your sentence. It’s not the only perpetrator either – consider the meaning of every word you use, and strike meaningless words from your sentences.
+
+Ending sentences with a preposition
+-----------------------------------
+
+> _“Ending a sentence with a preposition is something up with which I will not put.”_  
+> —Winston Churchill
+
+Much like starting a sentence with “and” or “but”, ending a sentence with a [preposition](http://www.writingcentre.uottawa.ca/hypergrammar/preposit.html) is not technically wrong, despite what your English teacher may have told you. It is sometimes bad form, yes, but only when there are more elegant alternatives. When there are none, as is the case with Mr Churchill’s quote, it’s okay to end with a preposition.
+
 Formatting
 ----------
 
@@ -43,7 +67,7 @@ __Indentation__ is used most commonly in media where there is limited space. Alm
 
 It’s good practice to make use of Google Docs’s ruler or your word processor’s paragraph formatting features to indent, rather than just pressing <kbd>tab</kbd> at the start of each paragraph. Amongst other things, this gives you greater control over the size of your indents.
 
-__Double spacing__ between paragraphs is more common in electronic media where the amount of space is much less ﬁnite. In a typical typesetting environment, double spacing is achieved by telling the typesetting software the amount of desired space between paragraphs. However, since most people will be submitting works through Fimfiction, the alternative is to insert a blank line between each paragraph. [[For fanﬁction – and most anything else intended to be submitted to web-based addresses – this is perfectly acceptable. It's a fact of the medium that some concessions must be made in the way of typesetting. However, for any future professional endeavours you might have, you should be using the paragraph-spacing settings of your word processor.]]
+__Double spacing__ between paragraphs is more common in electronic media where the amount of space is much less ﬁnite. In a typical typesetting environment, double spacing is achieved by telling the typesetting software the amount of desired space between paragraphs. However, since most people will be submitting works through Fimfiction, the alternative is to insert a blank line between each paragraph. [[For fanﬁction – and most anything else intended to be submitted to web-based addresses – this is perfectly acceptable. It’s a fact of the medium that some concessions must be made in the way of typesetting. However, for any future professional endeavours you might have, you should be using the paragraph spacing settings of your word processor.]]
 
 <blockquote>
 	<p class="good">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
@@ -77,12 +101,19 @@ In addtion, sometimes you need a scene break that just doesn't quite justify the
 * When using _indented paragraphs_, weak scene breaks can be indicated by inserting a blank line and then resetting the indent.
 * When using _double spaced paragraphs_, weak scene breaks may be indicated by inserting a blank paragraph.
 
-Ending sentences with a preposition
------------------------------------
+### Quotation marks
 
-> _“Ending a sentence with a preposition is something up with which I will not put.”_  
-> —Winston Churchill
+There are two kinds of quotation marks:
 
-Much like starting a sentence with “and” or “but”, ending a sentence with a [preposition](http://www.writingcentre.uottawa.ca/hypergrammar/preposit.html) is not technically wrong, despite what your English teacher may have told you. It is sometimes bad form, yes, but only when there are more elegant alternatives. When there are none, as is the case with Mr Churchill’s quote, it’s okay to end with a preposition.
+* Single quotes: ‘’
+* Double quotes: “”
+
+They are used mainly for dialogue (<span class="good">“Oh, um, hello,” said Fluttershy</span>) and direct quotations (<span class="good">Sources describe the phenomenon as “totally rad”</span>), but can also be used to indicate irony or sarcasm (<span class="good">You’re my “best friend”!</span>).
+
+Opinions are divided as to when single and double quotation marks should be used. In America, it’s common practice to only use them when the text you’re enclosing them with is already inside double quotation marks (<span class="good">“You’re my ‘best friend’!” I said</span>). Other authorities in Britain and Australia like to do the exact opposite (<span class="good">‘You’re my “best friend”!’ I said</span>).
+
+Still others prefer to reserve double quotes for dialogue and quotations and use single quotes for everything else. [[More specifically, this is what my English teachers always told me to do, but I haven’t found any online references that support it.]] And then there’s the fanfiction convention of using single quotation marks for direct thoughts (which I’ve found is a great way to confuse your reader horribly and personally discourage).
+
+Choose a style, and use it consistently. The use of quotation marks is not as region-specific as “colour/color” or “spaced en dash/unspaced en dash”, so feel free to use the American style if, like me, you think that single quotes look too much like apostrophes.
 
 [% END %]

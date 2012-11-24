@@ -148,7 +148,7 @@ However, there’s no reason not to use dashes instead!
 	<p>“Derpy, muffins don’t” – Carrot Top put a hoof to her forehead – “grow into muffin trees when you bury them in the ground.”</p>
 </blockquote>
 
-### Miscellaneous <span class="hidden">Dialogue Punctuation</span>
+### Miscellaneous <span class="hidden">dialogue punctuation</span>
 
 Something interesting I learnt about dialogue punctuation while writing Long Distance is that when writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
 
@@ -179,5 +179,84 @@ Before I defer to better sources, one last thing:
 * <span class="good">“That’ll do, pig. That’ll do.”</span>
 
 [This article](http://theeditorsblog.net/2010/12/08/punctuation-in-dialogue/) on The Editor’s Blog, and [this article](http://www.be-a-better-writer.com/punctuate-dialogue.html) on Be A Better Writer explain the more obscure rules of dialogue punctuation better than I could hope to.
+
+Full stops, exclamation points, and question marks
+--------------------------------------------------
+
+A full stop is used to end an ordinary sentence. It can end sentences that aren’t exciting and don’t have questions. Reaching the end of a paragraph is no excuse to leave off a full stop.
+
+Are question marks used to end questions? Yes, yes they are. Can they be used for anything else? No, no they can’t. I wonder why. The preceding sentence should not end in a question mark, because it doesn’t ask a question. It merely states that I wonder why something is the way it is.
+
+Exclamation marks are exciting and energetic! They’re appropriate for shouty or enthusiastic dialogue! They can also be used in narration, but only very, very sparingly, or else it gets annoying!
+
+One exclamation mark after a sentence is fine, as is one question mark. An exclamation mark followed by a question mark (“!?”) or vice versa (“?!”) is also fine and what’s known as an [interrobang](http://en.wikipedia.org/wiki/Interrobang). [[There’s a special Unicode character for it (“‽”), but it’s a bit unwieldy.]]
+
+What is not fine, however, is ending a sentence in any more than one of these marks. Multiple exclamation marks don’t make your sentence more urgent or exciting; they just make you look like a tool.
+
+Commas, semicolons, colons, dashes, and ellipses
+------------------------------------------------
+
+Okay, this is a complicated topic, but it’s one that I think is vital knowledge for any writer. English is graced with so much wonderful punctuation, and yet most people barely move past using commas.
+
+Commas are short pauses, used to break up sentences into logical chunks, but not used to conjoin separate sentences. You would think that this would be obvious, but one of the most common misuses of the comma is the dreaded comma splice.
+
+Semicolons are sophisticated punctuation marks that make it okay to have comma splices; stick a dot on top of that comma and splice no more! Keep in mind, though, that writing needs variety; a variety of comma splices should be fixed in a variety of ways. The semicolon is the easiest way to fix them; it is not always the best.
+
+Colons are a more directed form of semicolon. While two sentences conjoined by semicolons must be related in some way, the bit that comes after a colon *must* follow the logical flow started by the bit that precedes it. Chances are you won’t use too many colons: they usually get replaced by conjunctions.
+
+Dash is best punctuation mark. It can be used in place of commas, semicolons, *and* colons! The dash is a great way to inject – or intersperse – exciting, abrupt little phrases into your sentences. But with great power comes great responsibility, and one must be careful [not to overuse the versatile dash](http://www.slate.com/articles/life/the_good_word/2011/05/the_caseplease_hear_me_outagainst_the_em_dash.html). Dashes are also useful in dialogue to show that a speaker has been cut o–
+
+Ellipses should not be overused in fiction... their use in narration is often frowned on... because they are distracting... and also a cheap way to build suspense. They work better in dialogue, usually to signify the speaker trailing off... In addition, **an ellipsis has exactly three (3) dots**.
+
+### Dashes, hyphens and ellipses – a technical note
+
+This is a hyphen: “-”. It’s used to join compound words (“eye-colour”) and compound modifiers (“over-propelled” pegasus).
+
+This is an en dash: “–”. It’s a little-used punctuation mark employed to indicate ranges of values (“pages 40–45”), relationships (“Doctor–patient relationship”), and [a number of other things](http://en.wikipedia.org/wiki/Dash#En_dash).
+
+This is an em dash: “—”. It’s used—without spaces—as the “dash” punctuation mark.
+
+“But, Ezn,” you ask, “why haven’t you been using unspaced em dashes? What’s with your spaced en dashes? Why are you lying to me?!”
+
+The simple answer is that I prefer the way spaced en dashes look, and [am not alone in this preference](http://en.wikipedia.org/wiki/Dash#En_dash_versus_em_dash). _The Chicago Manual of Style_ recommends unspaced em dashes, but “style guides outside of the US tend to diverge from this guidance”.
+
+Some folk even like to use — get this — a spaced em dash. Isn’t typography something?
+
+This is fanfiction, so use whichever one you like most, or use an unspaced em dash if you’re American and a spaced en dash if you’re not. Just be consistent. [[Some people like to use unspaced em dashes to indicate speech being cut off even when they're using spaced en dashes for everything else, probably because en dashes get a little complicated when you use them.]]
+
+The ellipsis is still more confusing. Depending on the style guide you follow, you could end up using it any of these ways:
+ 
+* Words . . . more words
+* Words...more words
+* Words ... more words
+* Words... more words
+ 
+The standard way of representing the ellipsis in electronic media, where we generally have to do without fancy typography and its associated array of different-sized spaces (and non-breaking ones), is the last option. Still, opinions are very divided on the ellipsis, so you can probably get away with whichever style you like best.
+
+Parentheticals
+--------------
+
+There are three types of parentheticals: the type surrounded by commas, the type surrounded by dashes, and the type surrounded by parentheses. The first type is the most common; the second type is best used for abrupt, very quick asides – like this one here – and the third type is barely ever used in fiction (with good reason: [the type of asides usually put in brackets can break the reader’s immersion](http://www.dailywritingtips.com/15-purposes-for-parentheses/)).
+
+Miscellaneous <span class="hidden">punctuation</span> errors
+------------------------------------------------------------
+
+1. Apostrophes signify possession (among other things). “<span class="good">Ezn’s guide</span>”, “<span class="good">Twilight’s library</span>”, “<span class="good">farmers’ market”</span>. [[The possessive form of a plural just gets an apostrophe on the end.]] Do not use them to make plurals. One “<span class="good">trolley</span>”, multiple “<span class="good">trollies</span>”, but not multiple “<span class="bad">trolly’s</span>”. Check out [the Wikipedia article on English plurals](http://en.wikipedia.org/wiki/English_plural) for more help.
+
+2. On that note, the word “its” is the possessive form of it (“<span class="good">it rubs the lotion on its skin</span>), and the word “it’s” is a contraction of “it is” or “it has”. That’s because “its” is the possessive form of a pronoun (“it”), so like “your” or “his”, it doesn’t get an apostrophe.
+
+3. Could **have**, should **have**, and would **have** – or if you want to get contraction-y, could’ve, should’ve, and would’ve. It’s “·ve”, not “·of”.
+
+4. Something is either unique or not unique. Something cannot be “very unique” or “sorta unique”, because “unique” means “one-of-a-kind”, and how can anything ever be “very one-of-a-kind”?
+
+5. Proper nouns (names) get capitalised (Princess Celestia, Canterlot, Grand Galloping Gala). Random other words do not, unless used at the beginning of a sentence. If you really need to emphasise something, use italics (<span class="good">*true and honest*</span> vs <span class="bad">True and Honest</span>).
+
+6. There, they’re, and their. Your and you’re. Where, were, and wear. To, two, and too. If you don’t know the differences between these sets of words, look them up.
+
+7. In fiction, numbers that are not dates should be written out in words (<span class="bad">“she had 2 eyes”</span> vs <span class="good">“she had two eyes”</span>). [[If it's a very large or complex number that would require a lot of words to say in English (“<span class="good">450,202.33</span>”), then numerals are okay (though less so in dialogue than narration).]]
+
+8. <span class="good">Rainbow-maned pegasus. Dirt-covered carpet. Obstacle-ridden forest.</span> When two words are working together to describe a noun (“pegasus”, “carpet”, or “forest”), they should be joined together with a hyphen. Don’t use a hyphen if the first word is an adverb, though, because the adverb is describing the adjective, not forming a compound with it. “<span class="good">It was a smoothly run election.</span>”
+
+9. Don’t use two single quotation marks (<code class="bad">''</code>) in place of a double quotation mark (<code class="good">"</code>).
 
 [% END %]

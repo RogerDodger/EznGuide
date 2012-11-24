@@ -1,0 +1,46 @@
+[% FILTER markdown %]
+
+Grammar
+=======
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+Tenses
+------
+
+There are five tenses you need to worry about:
+
+1. Present  
+<span class="good">I run.</span>
+
+2. Present perfect  
+<span class="good">I am running.</span>
+
+3. Past  
+<span class="good">I ran.</span>
+
+4. Past perfect  
+<span class="good">I had run.</span>
+
+5. Future  
+<span class="good">I will run.</span>
+
+99% of stories are written in the **past tense**. You get the occasional present tense story (Neal Stephenson’s _Snow Crash_ is the only published one I can think of off-hand [[_The Hunger Games_ by Suzanne Collins is another example, as Kurbz informs me.]]), but new writers are encouraged not to fiddle with that sort of thing until they’ve spent some quality time with traditional, past-tense writing. I don’t know of any notable stories (fanfiction or otherwise) written in future tense.
+
+A mistake most new writers make quite a bit is tense inconsistency. Their stories will contain a ridiculous assortment of past tense and present tense verbs, and generally not because they’re daring metafictional pieces about time-travel. Tense mess ups like this are usually easy fixes, so just read through your story a few times to make sure no unintended time travelling occurs.
+
+A more subtle and also harder-to-explain error is the mixing of the past and past perfect tenses. In my experience, mistakes of this sort are usually made by non-native English speakers.
+
+_[Editor's note: The following is not really correct]_
+
+For example, <span class="bad">“She knew the place well because she *grew up* there”</span> should be <span class="good">“She knew the place well because she *had grown up* there”</span>. 
+
+The word “grew”, while a past tense word, is one that is used in present tense sentences. For example, the sentence “He likes maple syrup because he grew up in Canada” is a present tense sentence in which a past event is referenced. If you said, <span class="bad">“I like maple syrup because I grow up in Canada”</span>, you’d get some strange looks.
+
+When you convert a present tense sentence to the past tense, you need to convert all of its verbs and verb phrases to past tense versions of themselves, including “grew”, which becomes “had grown”. <span class="good">“He liked maple syrup because he had grown up in Canada.”</span>
+
+An often-overlooked part of getting tenses right is the proper use of words that refer to time. Words like “now”, “currently” and “today” should technically be avoided in past tense, because they are present tense words used to describe present tense happenings. So it's often prudent to substitute “today” for “that day”. Substitute “now” and “currently” for “then”, or “at that moment”.
+
+However, it is sometimes appropriate to use some of these words in a past tense narrative, and it has been done in published books. My recommendation is to be careful about using them, but not cut them out entirely. A well-placed “now” brings the reader closer to that point in the story, but mess it up and your story will be flip-flopping all over the timeline. The use of a “yesterday” or a “today” in the context of character thoughts has also been done, even in published fiction.
+
+[% END %]
