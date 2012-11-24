@@ -58,7 +58,7 @@ That may strike you as a little exaggerated, but it’s been done. I’ve seen c
 
 <p class="center golden">If a character has a name, call them by it as often as possible.</p>
 
-By referring to characters with descriptors, you take the reader away from them. There’s a leap of logic that needs to be made from “Princess Celestia’s personal protégé” to “Twilight Sparkle”, and although it’s a very small, almost unnoticeable leap for most readers, it’s still big enough to distract them from the character interaction taking place. Therefore, the worst place to succumb to LUS is in dialogue.
+By referring to characters with descriptors, you take the reader away from them. There’s a leap of logic that needs to be made from “Princess Celestia’s personal protégé” to “Twilight Sparkle”, and although it’s a very small, almost unnoticeable leap for most readers, it’s still big enough to distract them from the character interaction taking place. Therefore, the worst place to succumb to <abbr title="Lavender Unicorn Syndrome">LUS</abbr> is in dialogue.
 
 Here’s that passage again, this time just with names and pronouns:
 
@@ -104,20 +104,35 @@ A lot of the time, a problem that appears to be one of name overuse actually end
 
 <h5>Not the syndrome</h5>
 
-Not every word or phrase that isn’t a “Twilight” or a “she” is an example of LUS – it’s all about context. In some rare circumstances, little things like “her friend” or “the other mare” can be an appropriate way to refer to a character, but again, context. The big problem with calling Twilight a lavender unicorn every time you get tired of using her name is that her being lavender or a unicorn is usually quite irrelevant to the passage in which you’re reminding us of that, so the descriptor comes off as flowery, distracting and completely unnecessary.
+Not every word or phrase that isn’t a “Twilight” or a “she” is an example of <abbr title="Lavender Unicorn Syndrome">LUS</abbr> – it’s all about context. In some rare circumstances, little things like “her friend” or “the other mare” can be an appropriate way to refer to a character, but again, *context*. The big problem with calling Twilight a lavender unicorn every time you get tired of using her name is that her being lavender or a unicorn is usually quite irrelevant to the passage in which you’re reminding us of that, so the descriptor comes off as flowery, distracting and completely unnecessary.
 
 You’ll recall that earlier on I mentioned that “by referring to characters with descriptors, you take the reader away from them”. Sometimes, this can be what you want to do. Substituting names from descriptors is a good way to zoom the reader out from their more intimate engagement with the story, and have them look at the big picture for a moment.
 
-And then there’s the case where a character isn’t named (yet). So if, say, you have a story from Trixie’s viewpoint and she runs into Fluttershy, it would make sense to call Fluttershy “a yellow pegasus” when she first appears, and then just “a pegasus” until she introduces herself. Or if you have a nameless background character, it makes sense to call her “the grey pegasus” or “the green unicorn” the sole time you refer to her. As the rule above states, named characters should be referred to by names.
+And then there’s **the case where a character isn’t named (yet)**. So if, say, you have a story from Trixie’s viewpoint and she runs into Fluttershy, it would make sense to call Fluttershy “a yellow pegasus” when she first appears, and then just “a pegasus” until she introduces herself. Or if you have a nameless background character, it makes sense to call her “the grey pegasus” or “the green unicorn” the sole time you refer to her. As the rule above states, named characters should be referred to by names.
 
-LUS can have specific applications in writing (where it stops being a syndrome and becomes... something nice?), but I feel that a lot of the time authors just slap arbitrary descriptors on their prose when they feel like they’re overusing names... and should actually take that opportunity to improve their skills with pronouns and/or sentence structure.
+<abbr title="Lavender Unicorn Syndrome">LUS</abbr> can have specific applications in writing (where it stops being a syndrome and becomes... something nice?), but I feel that a lot of the time authors just slap arbitrary descriptors on their prose when they feel like they’re overusing names... and should actually take that opportunity to improve their skills with pronouns and/or sentence structure.
 
-Further reading
+<h5>Further reading</h5>
 
+* [I’ve written an article about <abbr title="Lavender Unicorn Syndrome">LUS</abbr> that goes into more detail about everything above.](http://eznwords.tumblr.com/post/21010451863/ellyewess)
+* [This page on epithets is another good resource.](http://trickster.org/arduinna/epithet.html)
 
-I’ve written an article about LUS that goes into more detail about everything above.
-This page on epithets is another good resource.
+Active and passive voice
+------------------------
 
+<span class="active">“The boy kicked the ball”</span> is an example of **active voice**: the subject of the sentence (the boy) verb-ed (kicking) the object (the ball).
+
+<span class="passive">“The ball was kicked by the boy”</span> is an example of **passive voice**: the object of the sentence (the ball) was verb-ed by (was kicked by) the subject of the sentence (the boy). [[The specific, prototypical definition of a passive-voice clause is one where any auxiliary *be* (*am*, *are*, *is*, *was*, *were*, or *being*) is followed by a past participle, and where an active counterpart exists.]]
+
+Both styles of sentence have their places in writing, but a really dull way to write fiction is to use passive voice too much. What it does is that it makes everything overlong and makes it so that all urgency or immediacy is stripped from the story. All of these extra words cause the reader to become bored and also the pacing is killed by them (the extra words).
+
+What I am saying is not that you should always avoid passive voice, but that you should say as much as you can in as few words as you can.
+
+Case in point, the above paragraphs: hideous passive voice. Newbie authors often make the mistake of writing too much of their work in passive voice out of a misguided desire to make their sentences sound more sophisticated.
+
+But here’s the thing: <span class="passive">“The ball was kicked by the boy”</span> is longer than <span class="active">“The boy kicked the ball”</span>, without necessarily imparting more meaning (although it could do that in some contexts). There’s little use in writing complicated sentences when you can say the same stuff with simple ones.
+
+As with Lavender Unicorn Syndrome, passive voice has its specific uses, and the important thing is to *think* about how you're going to write something because presentation is as important as content. Sometimes, passive voice can help to create a specific atmosphere, but usually, as with <abbr title="Lavender Unicorn Syndrome">LUS</abbr>, it's just something that creates unwanted distance between the reader and the story.
 
 Formatting
 ----------
@@ -135,8 +150,7 @@ Do not use two spaces. [This practice was introduced as a workaround for when th
 Paragraph spacing is necessary to allow readers to unambiguously identify where one paragraph ends
 and another begins. There are two primary methods for spacing paragraphs:
 
-__Indentation__ is used most commonly in media where there is limited space. Almost all books, magazines, newspapers – anything intended to be viewed on print – use indents, as they separate paragraphs while using a minimal amount of space. Since the purpose of indenting is to separate paragraphs, the first paragraph of any section need not be indented.
-
+__Indentation__ is used most commonly in media where space is limited. Almost all books, magazines, newspapers – anything intended to be viewed on print – use indents, as they separate paragraphs without wasting space space. Since the purpose of indenting is to separate paragraphs, the first paragraph of any section need not be indented.
 
 > <p class="noafter good">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
 >
@@ -146,8 +160,7 @@ __Indentation__ is used most commonly in media where there is limited space. Alm
 
 It’s good practice to make use of Google Docs’s ruler or your word processor’s paragraph formatting features to indent, rather than just pressing <kbd>tab</kbd> at the start of each paragraph. Amongst other things, this gives you greater control over the size of your indents.
 
-__Double spacing__ between paragraphs is more common in electronic media where the amount of space is much less ﬁnite. In a typical typesetting environment, double spacing is achieved by telling the typesetting software the amount of desired space between paragraphs. However, since most people will be submitting works through Fimfiction, the alternative is to insert a blank line between each paragraph. [[For fanﬁction – and most anything else intended to be submitted to web-based addresses – this is perfectly acceptable. It’s a fact of the medium that some concessions must be made in the way of typesetting. However, for any future professional endeavours you might have, you should be using the paragraph spacing settings of your word processor.]]
-
+__Double spacing__ between paragraphs is more common in electronic media where the amount of space is much less finite. In a typical typesetting environment, double spacing is achieved by telling the typesetting software the amount of desired space between paragraphs. However, since most people will be submitting works through Fimfiction, the alternative is to insert a blank line between each paragraph. [[For fanfiction – and most anything else intended to be submitted to web-based addresses – this is perfectly acceptable. It’s a fact of the medium that some concessions must be made in the way of typesetting. However, for any future professional endeavours you might have, you should be using the paragraph spacing settings of your word processor.]]
 
 > <p class="good">The sun hovered a short distance above the lonely dirt road, making the trees that rose up on its eastern side cast long shadows over its surface. The morning atmosphere was fuzzy with the light mist that arose from the grass beneath the trees.</p>
 > 
@@ -155,8 +168,7 @@ __Double spacing__ between paragraphs is more common in electronic media where t
 > 
 > <p class="good">The two ponies and zebra had not been walking for very long, but they felt that they were already quite far removed from the hustle and bustle of their city lives. Fillydelphia was no Manehattan, but the contrast between it and their current surroundings was jarring nonetheless.</p>
 
-Since the purpose of paragraph spacing is to identify paragraph separation, simultaneous use of both
-formats is redundant.
+Since the purpose of paragraph spacing is to identify paragraph separation, simultaneous use of both formats is redundant.
 
 Which format you choose is a matter of taste, but you *must* choose one and stick with it. If readers can’t distinguish between paragraphs, they won’t be able to distinguish whether or not your story is any good, and they will banish it from their sight.
 

@@ -250,6 +250,12 @@ ul.footnotes li {
     color: #D4AF37;
     font-weight: bold;
 }
+.active {
+    color: orange;
+}
+.passive {
+    color: darkblue;
+}
 
 /*
  * Tables
