@@ -179,8 +179,7 @@ for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 		substr($content, $index, 0 ) = sprintf
 		  '<p class="backtop">'
 			. '<a id="%s" href="#Contents">Back to top</a>'
-		. '</p>' . "\n" 
-		. '<div class="clearfix"></div>' . "\n",
+		. '</p>' . "\n",
 		$headers[-1]->{href};
 
 	}

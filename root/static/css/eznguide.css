@@ -207,7 +207,7 @@ ul.footnotes li {
 }
 
 .backtop {
-    float: right;
+    text-align: right;
 }
 .backtop a, .backtop a:visited {
     font-size: 1em;
@@ -251,7 +251,7 @@ ul.footnotes li {
     font-weight: bold;
 }
 .active {
-    color: orange;
+    color: #E36C0A;
 }
 .passive {
     color: darkblue;
