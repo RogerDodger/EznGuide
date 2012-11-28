@@ -1,6 +1,8 @@
 Misc notes
 ----------
 
+Section on prepositions will probably be moved/superseded by the grammar section.
+
 ### 020-punctuation.tt
 
 * Lines 117–123 - It's impossible to demonstrate the appeared wrapping in this example because of the fluid layout

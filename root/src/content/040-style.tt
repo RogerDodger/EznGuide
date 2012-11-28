@@ -27,7 +27,7 @@ My first set of opinions has to do with a few words and phrases I used in the ab
 
 1. “began to verb” — This is something that I see a lot of in amateur writing, and it really irritates me. Wounds begin to bleed, opponents begin to fight, and barrels start rolling down hills. It’s stilted and usually meaningless – why not just say that the wound bled, or the opponents fought, or the barrel rolled down the hill? Saying “started to” or “began” doesn’t add any depth to your description of the event, so you may as well leave it out. There are, however, some cases where this is appropriate.
 
-2. “seemed to be rather” — Spineless language use. This is your story – you’re telling us that something happened; <span style="font-family: 'Comic Sans MS'">you’re MAKING this HAPPEN, bro.</span> Don’t be so wish-washy about it – say that something was something else, not that it was “rather something else”. Dispense with “seemed to”, “appeared to”, “managed to”, and all other wobbly constructs if they add nothing to your sentences. Use metaphors instead of similes.
+2. “seemed to be rather” — Spineless language use. This is your story – you’re telling us that something happened; <span class="comic">you’re MAKING this HAPPEN, bro.</span> Don’t be so wish-washy about it – say that something was something else, not that it was “rather something else”. Dispense with “seemed to”, “appeared to”, “managed to”, and all other wobbly constructs if they add nothing to your sentences. Use metaphors instead of similes.
 
 3. “the fact that” — This phrase is the common man’s “like”. It adds nothing, and should you find yourself using it, get to reordering your sentence. It’s not the only perpetrator either – consider the meaning of every word you use, and strike meaningless words from your sentences.
 
@@ -175,6 +175,51 @@ Don’t say “<span class="bad">Twilight was feeling too sad to read</span>”.
 Choose an emotion or an idea you wish to convey, and then dart around it. Present the readers with happenings, and with reactions. Then let them figure out the underlying details for themselves. It’ll make your writing all the greater and more powerful.
 
 Don’t feel the need to completely abandon telling, though. [It has a few useful applications.](http://www.coffeehouseforwriters.com/fictionfix/0505Grossack.html)
+
+Colours, styles, and fonts
+--------------------------
+
+I love <span class="indigo">colours</span>, and **bold** and *italic* text are both great ways to emphasise things. And who <span class="mono">doesn’t</span> <span class="comic">love</span> <span class="arial">fonts</span> (apart from that “love” one, at least)? Non-linked <span class="underline">underlines</span>, on the other hand, belong in the 20th century.
+
+As fun as these little flourishes are, fiction-writing has some specific conventions regarding which ones can be used, and what they should be used for. Keep in mind that most people read fiction as a form of escapism, and that strangely-formatted text can be a real immersion-killer.
+
+In fiction, using italics for thoughts (formatted in the same way as speech, but without the quotation marks: <span class="good">*I really like her mane,* thought Sweetie Belle</span>) and emphasised words is generally accepted, although some say that even this is bad practice. [[The thinking behind this assertion is that words should not need artificial emphasis if a phrase has been written properly, and that thoughts should not be handled like dialogue, but should instead be directly incorporated into narrative in a manner appropriate to the mode used.]] <span class="caps">Caps lock</span> is sometimes used for shouting and onomatopoeia (which should also receive italics: <span class="good em caps">Snap! Crash! Bang!</span>)
+
+A trend I’ve seen in ponyfic is the use of bold text for **loud dialogue**. It’s not technically a correct use of boldface, but it’s probably easier to read than <span class="caps">long passages of cruise control for cool</span>. Of course, both <span class="caps">all caps</span> and **bold** can become crutches for weak writing, and they’re best avoided in more serious works.
+
+Colours don’t have any conventional uses in fiction because hey, coloured ink’s expensive. Seeing as we’re not constrained by that kind of physical limitation on the internet, it’s something an experimental author can play around with. [[Shortly after releasing this guide, I was reminded that some people are colourblind and had to change a lot of the colour-coding. If you want to use colours, you’re either going to have to tell them to go read something else (which isn’t very nice) or spend some time working out a balance between making your colours easily differentiable and not eye-searingly saturated.]]
+
+I’ve seen coloured text used for character dialogue. (Screw said tags and their complicated punctuation, amirite?)
+
+><span class="char1">“Don’t you muddy the issue with your fancy mathematics!”</span>
+>
+><span class="char2">“and then I said ‘Oatmeal, are you crazy?’&nbsp;”</span>
+
+It can also differentiate between narrators.
+
+><span class="narr1">As a young filly growing up in Canterlot...</span>
+>
+><span class="narr2">The only thing I liked more than going fast... was WINNING!</span>
+
+And then there’s all the bizarre stuff that _<span class="house-of-leaves">House</span> of Leaves_ did with it.
+
+My advice for using colours in narrative is this: most of you won’t need to do it. For those who do, use non-saturated colours, and either make them as unobtrusive as possible, or go completely insane.
+
+As for fonts, well, the Internet has largely saved us from suffering through fanfiction written in elaborate, impossible-to-read cursive text, because there just aren’t that many fonts you’re generally allowed to use on most websites. Thank heaven for small mercies.
+
+Using different fonts in the same story for effect can work nicely when handled with care. The most common use I’ve seen is the occasional shift into a fixed-width font to show in-universe text.
+
+<p class="center mono">This sort of thing is optionally accompanied by a shift into center-align, something I personally like to use (coupled with italics) instead of a font change.</p>
+
+I’ve also seen different fonts used to visually represent different ways of speaking.
+
+<p class="caps mono">”For example, a robot may speak like this.”</p>
+
+Lastly, I’ve seen people use <span class="small">smaller font sizes to indicate whispering</span> and <span class="big">bigger font sizes to indicate shouting</span>.
+
+I can give the same general advice for messing around with fonts and font sizes: it’s a game best left for more comedic pieces, as it can be very distracting and will almost always ruin the mood of anything meant to be taken seriously. Even in comedy stories, the author should take care not to <span class="unreadably-tiny">make whisper text too tiny to read because, well, I just showed you why, didn’t I?</span>
+
+<span class="del">Strikethroughs are basically amazing and will make every fic 20% cooler.</span> Strikethoughs should only be used in comedy trollfics. [[In narration, that is. Epistolary stories like _[Yours Truly](http://www.equestriadaily.com/2012/02/story-yours-truly.html)_ and _[Simply Rarity](http://www.equestriadaily.com/2011/06/story-simply-rarity.html)_ have used strikethroughs in character-written letters to great effect.]]
 
 Formatting
 ----------

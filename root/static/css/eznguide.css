@@ -227,6 +227,16 @@ ul.footnotes li {
     color: #333;
 }
 
+.indent { 
+    text-indent: 2em; 
+}
+.noafter { 
+    margin-bottom: 0; 
+}
+.noafter + * {
+    margin-top: 0;
+}
+
 /*
  * Content
  */
@@ -250,11 +260,66 @@ ul.footnotes li {
     color: #D4AF37;
     font-weight: bold;
 }
-.active {
+.active,
+.char1 {
     color: #E36C0A;
 }
 .passive {
     color: darkblue;
+}
+.indigo {
+    color: indigo;
+}
+.house-of-leaves {
+    color: darkblue;
+}
+.char2 {
+    color: #D29;
+}
+.narr1 {
+    color: darkmagenta;
+}
+.narr2 {
+    color: #09C;
+}
+
+.comic {
+    font-family: 'Comic Sans MS', cursive;
+}
+.times {
+    font-family: Times, "Times New Roman", serif;
+}
+.arial {
+    font-family: "Helvetica Nue", Helvetica, Arial, sans-serif;
+}
+.mono {
+    font-family: monospace;
+}
+
+.big {
+    font-size: 1.1em;
+}
+.small {
+    font-size: 0.9em;
+}
+.unreadably-tiny {
+    font-size: 0.5em;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+.em {
+    font-style: italic;
+}
+.strong {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+.del {
+    text-decoration: line-through;
 }
 
 /*
@@ -316,23 +381,6 @@ table.solid tr.even {
 }
 table.solid tr.odd {
 	background: #ede4d4;
-}
-
-/*
- * Misc
- */
-
-.indent { 
-	text-indent: 2em; 
-}
-.noafter { 
-	margin-bottom: 0; 
-}
-.noafter + * {
-    margin-top: 0;
-}
-.em {
-	font-style: italic;
 }
 
 /* ==========================================================================
