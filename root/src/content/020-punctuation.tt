@@ -63,11 +63,11 @@ It’s also wrong to just put new dialogue on a new line, because it’s bad pra
 >
 > <p class="bad">“Oh that’s not a problem at all. I only need your help making them. I’ll be doing most of the work,” Pinkie explained.</p>
 
-I believe that a lot of people don’t understand this rule because of the difference in paragraph formatting between printed books and electronic media. <a href="#Paragaph-spacing">As is detailed below</a>, books usually indent the first lines of each new paragraphs, whereas electronic texts (like this guide) usually leave vertical space between their paragraphs. So, for a new writer, it might look more “booklike” to have everything in a great big wall of text, because it's likely that they haven’t noticed the indentation in the books they've read.
+I believe that a lot of people don’t understand this rule because of the difference in paragraph formatting between printed books and electronic media. <a href="#Paragaph-spacing">As is detailed below</a>, books usually indent the first line of each new paragraph, whereas electronic texts (like this guide) usually leave vertical space between their paragraphs. So, for a new writer, it might look more “booklike” to have everything in a great big wall of text, because it's likely that they haven’t noticed the indentation in the books they've read.
 
 <p class="center golden">New speaker, new paragraph.</p>
 
-### Said Tags
+### Said tags
 
 The **second most important rule of dialogue** is actually a whole lot of rules: the nuances of dialogue punctuation. New writers are always getting this wrong in some way or another, because it’s kind of complicated and finicky. While dialogue punctuation does have a lot of rules, ninety-nine percent of the time, you’ll only need to keep these few in mind:
 
@@ -114,7 +114,7 @@ The **second most important rule of dialogue** is actually a whole lot of rules:
 
 	* <span class="good">Applejack said, “Don’t you muddy the issue with your fancy mathematics!”</span>
 
-### Action Tags
+### Action tags
 
 If you really want to end your dialogue with full stop instead of a comma, consider using an **action tag** instead of a traditional said tag. For example:
 
@@ -136,7 +136,7 @@ However, there’s no reason not to use dashes instead!
 
 ### Miscellaneous <span class="hidden">dialogue punctuation</span>
 
-Something interesting I learnt about dialogue punctuation while writing Long Distance is that when writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
+Something interesting I learnt about dialogue punctuation while writing _Long Distance_ is that when writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
 
 > <p class="good">“The glyph upon my flank describes a very delicate mission <br> 
 > It compels me to prevent international peace attrition.</p>

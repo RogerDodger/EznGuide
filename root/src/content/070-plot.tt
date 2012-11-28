@@ -1,0 +1,114 @@
+[% FILTER markdown %]
+
+Plot
+====
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+Yeah, I know, *dat flank*. Get that out of your system, and then we can talk about what the word “plot” used to mean, and have a gay old time doing so.
+
+Without a plot, you have no story. You can still write without a plot, and a lot of people do, but you will not be writing a story. That’s fine, but just don’t expect anyone to read your character biography or dull anecdote.
+
+In the simplest terms, a plot is a problem. A problem is introduced, conflict occurs, and then the situation is resolved. For example: Twilight Sparkle falls ill and needs a flower from the top of a mountain to get better. Applejack, Rainbow Dash and Rarity travel to that mountain to procure that flower, and then the world ends and none of what came before matters anymore. That is a story (albeit one with an irritating resolution).
+
+When you first start planning a story you’re going to write, the most important thing to consider is how it will end. Think of your problem, and then immediately think of its solution. I cannot overemphasis starting with the end firmly in mind, because stories do not resolve themselves, and just trying to “wing it” will lead you into an inescapable corner. [[Well, some people can pull this sort of thing off. However, I am not one of them, so this guide is not going to contain any advice on writing by the seat of your pants.]]
+
+As long as you keep the end in mind, you can do as much or as little planning as you want. It’s a very good idea to keep a set of notes and possibly a timeline when writing longer and more complicated stories, but there’s no real need to plan out every scene in detail before you start writing the first. In fact, I’d discourage that practice simply because I find I often get my best ideas while writing.
+
+Know how your story’s going to end, start it as close to that ending as you can [[Thank you, Kurt Vonnegut.], and fill in the details as you go.
+
+Exposition
+----------
+
+I love worldbuilding. Besides dialogue, it’s one of my very favourite things to write about. And as with all writing, there are ways to do it very well, and ways to completely muck it up.
+
+The two most important things to consider when doing a bit of worldbuilding are relevance and reader investment. First, ask yourself if what you want to expound upon has any bearing on the story at the point where you want to expound upon it. Second, ask yourself if the reader has spent enough time with the world and your characters to care about whatever it is you want to lecture him on.
+
+If it’s appropriate, write some exposition, but don’t belabour it. Ideally, you want to explain everything the reader needs to know succinctly (one paragraph should do in most cases) and get back to the story as soon as possible.
+
+Starting a story with reams of exposition is not a good idea if you want to retain readers. I know that it’s important to ensure that readers understand what’s going on in your story, but most readers aren’t going to want to make the effort to slog through a whole bunch of exposition if they don’t even know whether the story is worth it or not.
+
+Crossovers
+----------
+
+I haven't written many crossovers, so I may not be the greatest person to ask about them, but I’ve read a good few, talked to people who *have* written them and also I’ve *got opinions*.
+
+I have personal bias that favours fusion fics (stories where the settings and characters of the two properties being crossed with each other are blended together to create a new universe) over straight crossovers (stories where characters from one property interact with the characters from another). Both can be done well, but stories in the latter category often end up being bogged down with too many different characters.
+
+If regular fanfiction requires writers to have intimate knowledge of a single fictional universe, crossover fanfiction requires writers to have intimate knowledge of at least two fictional universes. That’s a pretty tall order, but it’s absolutely essential.
+
+Remember, though, that the reader of a crossover should not be expected have the same intimate knowledge of said fictional universes. When presenting a crossover on an MLP:FiM website, you can safely assume your reader will have a decent knowledge of MLP, but that’s all you can assume. If your main audience is going to be an MLP one (which is likely, considering the sheer size of our fanfiction output and readerbase) it’s a really good idea to explain any relevant details to do with the second universe to the reader.
+
+Crossovers present a lot of very interesting opportunities, most of which are sadly passed over for what I feel is the ultimate exercise of literary pointlessness: the cut-and-paste crossover.
+
+How will you know that you’re writing a cut-and-paste crossover? Well, if you find yourself making a list of character replacement in the style of “Twilight Sparkle = Mal Reynolds, Pinkie Pie = Zoe Washburn, etc” then you should probably consider making a PMV instead of writing a fanfic.
+
+If you put the mane six on Serenity and make them fly around the system and have adventures, they’re bound to do completely different things from Mal and co, simply because they have different personalities and skills. If you find yourself arguing against that with “this is an alternate universe and they all have different personalities because they had different experiences” then I’ve got to ask why you’re even using them rather than simply writing a novelisation of Firefly.
+
+If you’re going to blend characters together in this way, it’s a good idea to keep most of the personality of the character who “gets the name”. For example, if you’re blending Twilight Sparkle and Mal Reynolds and calling the result Twilight Sparkle, make sure that most of that character’s personality comes from Twilight. You’re just going to confuse readers otherwise.
+
+A good crossover blends the defining features of two settings (or moods, or groups of characters) into a single whole that is more than the sum of its parts. A good crossover can also be read and enjoyed by those who aren’t necessarily fans of both of its sources and may inspire some of them to look into the source they’re unfamiliar with.
+
+Grimdark
+--------
+
+Equestria: while it's not a utopia where nothing bad ever happens to anypony, most people will agree that it's a few shades brighter, happier, and more optimistic than real life. Everypony has a job that they're good at, and the kingdom is ruled over by a pair of immortal benevolent dictators. The world presented in the show is not a [crapsack](http://tvtropes.org/pmwiki/pmwiki.php/Main/CrapsackWorld) or even a [crapsaccharine](http://tvtropes.org/pmwiki/pmwiki.php/Main/CrapsaccharineWorld) one.
+
+So it's only natural that many fanfiction writers go in the complete opposite direction, and paint a picture of a blood-soaked Equestria ruled by an oppressive sun tyrant, where casual racism is a part of daily life and a good segment of the population have weapons on their flanks. And, in principle, that's okay – one of the main points of fanfiction is to go to places and tell stories that would never happen in canon, and to subvert the world and see how familiar characters act in situations their creators never intended.
+
+The problem comes in when a fic author doesn't show where the darkness in their story is coming from, or portrays characters as dark, hardened versions of themselves without providing any reasonable explanation of how they got to be that way. When there's no obvious progression from how things are in canon to how things are in your story, you're going to have trouble getting readers to suspend their disbelief.
+
+A reader who knows and likes ponies probably isn't going to take it as a given that Pinkie Pie murders ponies in her basement, or that Cloudsdale is run by Nazis who turn flightless pegasi into rainbows. Adding those sorts of elements in willy-nilly is far more likely to cause your readers to laugh at your story than be captivated by it.
+
+Show where the grimdark is coming from. Have a believable progression from the status quo in canon to how things are in your fic.
+
+Shipping
+--------
+
+Before I get into this one, have a disclaimer: I am an emotionless robot and I do not generally read [[I've read one or two.]] or write [[Comedy trollfics notwithstanding.]] shipping stories. The following two paragraphs are what I've gleaned from consulting a few sources (mostly EustatianWings) with far more knowledge on this subject than what I have.
+
+When you write a shipping story, you’re working a kind of magic. Love is a great, unexplained mystery, so no amount of analytic thinking and no number of logical arguments about characters being compatible with each other will help you if you can't make the reader feel for the characters and want them to be together. Romance is food for the heart, not the mind.
+
+As I said above, a story is a problem. Stories are about conflict, and shipping is no exception. “Two characters fall in love, get together and live happily ever after” is not much of a story at all. Make bad things happen; make the characters suffer a little, whether because of outside forces keeping them apart, or because of their own insecurities and internal conflicts, or because of something else entirely. A smooth, painless romance is not a story, nor is it very realistic.
+
+From my side, please tag your work appropriately and avoid making offhand references to relationships your canon-minded readers will find hard to swallow. Having a line like “Oh, by the way, Rarity and Pinkie Pie are going out” in a story unrelated to either of those characters or their relationship is a great way to weird out a portion of your reader-base for no payoff.
+
+Comedy
+------
+
+As with most of the genres in these genre-specific sections, I have little experience writing comedy. To my credit, I do have a bit more experience enjoying good comedy, cringing at bad comedy and attempting to analyse the difference between the two (which is more than I could say about shipping). My conclusions thus far follow.
+ 
+“Randomness” is not comedy. Spouting inanities about cheese monkeys and flying monster trucks doesn’t make you funny so much as it makes you desperate to be funny. In a similar vein, arbitrary violence is not a punchline and gratuitous swearing doesn’t equal funny. Nothing equals funny. Try as you might, you will never find a formula for always-hilarious humour, because that’s not how humour works.
+ 
+Making a reference to an Internet meme or film that is (or was at one stage) actually funny is also not funny. You do not deserve any chuckles for simply mentioning a funny thing that some external party was responsible for.
+ 
+So what is funny? I can’t tell you; it’s something everyone has to figure out for themselves. I will, however, provide a couple of basic pointers:
+
+* Humour is in reference to something. 
+    
+    In most cases, just “being random” doesn’t work as humour because it’s meaningless and unattached. You need to joke about something that your audience already knows about to get a laugh, be it chickens and roads, airline food, the economy, politicians, lawyers, or any number of other things. Much of the best humour comes from the application of a creative and curious mind to what is mundane and ordinary.
+
+* Humour is in subversion. 
+
+    “Why did the chicken cross the road? To get to the other side” would actually be a pretty funny joke if it wasn’t the first one you ever heard, because it’s supposed to subvert your expectation that jokes should have punchlines. When telling a joke, you guide your audience along a path that they think they can predict the end of (“Two men walked into a bar”), and then you use the nuances of language, its interpretations, and what we mean when we say things to surprise them (“Ouch”), but still make some kind of internal sense.
+ 
+[Uncyclopedia has a fairly good page on how to be funny (and not just stupid).](http://uncyclopedia.wikia.com/wiki/Uncyclopedia:How_To_Be_Funny_And_Not_Just_Stupid)
+
+Also, remember this: unless your story is packed to the brim with jokes and intended to keep the reader laughing all (or most) of the way through, it’s not comedy. Having little bits of humour sprinkled around your slice-of-life or adventure story is a good idea (if it fits the mood) and I encourage it, but a few jokes here and there are no reason to call your work a comedy.
+
+And another thing: unless your joke-packed extravaganza that keeps the reader laughing all the way through is a story, you’d be better off giving it a [Random] tag. Stories, even comedic ones, need plots and characters.
+
+To fanfic or not to fanfic?
+---------------------------
+
+If you’re going to consider fanfiction as a genre that’s got just as much potential to be worth reading as original fiction, then it’s very important to do just that: look at fanfiction as just another genre, akin to romance, thrillers, murder mysteries and science fiction. It’s important to do this because not all stories *should* be fanfiction.
+
+A trend that’s quite popular in the <abbr title="Friendship is Magic">FiM</abbr> fanficcing community is the [elsewhere fic](http://tvtropes.org/pmwiki/pmwiki.php/Main/ElsewhereFic). These generally involve all-<abbr title="Original Character">OC</abbr> casts in different parts of Equestria, possibly in the distant future or the distant past [[Usually the former; Vanner’s _[Children of the Sun](http://www.equestriadaily.com/2011/10/story-children-of-sun.html)_ is the only example of the latter that springs to mind.]], and can have tones ranging from slightly more mature than the show itself to grimy grimdark grimdarkness where there is only <span class="del">war</span> friendship. I don’t have any trouble with those kinds of stories – hell, _Long Distance_ qualifies as one of them! However, I do think that it’s especially important for authors of stories which don’t use canon characters in main roles to think pretty deeply about whether their fic needs to be based on <abbr title="My Little Pony">MLP</abbr>.
+
+When I wrote _Long Distance_, I decided that it was going to be about dragonfire message sending and zebra and dragon worldbuilding. I decided to put my own characters in most of the story’s roles, but the story was largely about exploring the world around Equestria as I extrapolated it to be, and about looking at some of the mechanics of dragon magic (as I extrapolated them to be). It simply would not have worked as original fiction.
+
+However, if you’re making your own characters and telling their story in, let’s say, far-distant future Equestria where everything’s war-torn and unrecognizable, and the princesses are dead, then you really need to think deeply about whether your story would actually benefit from being tied to the canon of a little girl’s show about ponies.
+
+Sadly, amateur original fiction does not have as large and easily-accessible an audience as pony fanfiction, and I suspect that’s why some people choose to write these kinds of stories. I can understand that, to some degree.
+
+[% END %]

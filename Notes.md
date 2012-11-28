@@ -18,3 +18,12 @@ Section on prepositions will probably be moved/superseded by the grammar section
 * Line 24 - I was about to sharpie all over this bastard until I read the next paragraph...
 * Line 30 - Is the Comic Sans necessary? In any case, this paragraph probably needs touching up.
 * Line 68 - Comment on FimFiction removed since it's incorrect
+
+### 060-characters.tt
+
+Really not a big fan of using Mary Sue as any kind of literary term. It's just hogwash to me. Eh.
+
+### 070-plot.tt
+
+\>Grimdark
+

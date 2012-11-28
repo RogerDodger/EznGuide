@@ -81,7 +81,7 @@ my $tt = Template->new({
 			my $dt = DateTime->from_epoch( epoch => shift );
 			return sprintf '<time datetime="%sZ">%s</time>',
 				$dt->iso8601,
-				$dt->strftime( '%a, %d %b %Y, %H:%M:%S UTC' ),
+				$dt->strftime( '%a, %d %b %Y %H:%M:%S UTC' ),
 		},
 		version => sub {
 			my $fn = shift;

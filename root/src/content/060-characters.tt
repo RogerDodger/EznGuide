@@ -1,0 +1,53 @@
+[% FILTER markdown %]
+
+Characters
+==========
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+Characters are the fiction-writer’s most important tools. Characters are (usually) sentient beings that the reader (who is also (usually) a sentient being) can relate to. They have wants, fears and aspirations. It is the actions, reactions and interactions of characters that drive stories forward.
+
+Canon characters
+----------------
+
+A challenge unique to fanfiction writing is the characterisation of canon characters. Getting characterisation right is absolutely essential to fanfic writing, because if you give everypony new personalities, you may as well give them all new names as well, and label your story as original fiction instead.
+
+Any fanfiction writer who really cares about what he’s writing must be very well-versed in whatever it is that his work is based on. In *Friendship is Magic*’s case, this means that you, the fic writer, must at least have watched every episode of the show multiple times. Doing this is the most effective way to learn what a character is like, how they talk, and how they react in different situations.
+
+What I like to do while writing character dialogue is imagine it being said in that character’s voice. Then, if the dialogue is worded in a way that’s out of character, it’ll become clear to me because it just won’t sound right. I am able to do this because I have watched every episode of the show at least twice.
+
+In short, familiarity with the source material is absolutely essential for good fanfiction writing.
+
+Original characters
+-------------------
+
+Mary Sues (and how to avoid writing them) are discussed in the next section, so I’m just going to make the assumption that the character(s) you’ve created are realistically flawed and relatable. If you’re not confident about that, skip ahead a little and come back to this later.
+
+A character should be created for a purpose. That purpose should be a specific, in-story purpose. It should not be “this is such a cool character omg” or “I’m going to write about myself because I wish I could be a pony and go live in Equestria”. [[Self-insertion can technically work if you’re able to write about your own flaws realistically, but it’s best left to people who already know that characters are tools.]]
+
+Any character you intend to write about a lot should be a rounded character. They should have multiple good points, multiple flaws and weaknesses, and a clearly-defined personality. Why? Because rounded characters are easier to write – you can just let them react to events as they would react, rather than biting your nails and trying to figure out what they should do next.
+
+Of course, not all characters are going to be fleshed out and rounded. Minor characters you intend to use as plot devices don’t need complex backstories or intimate descriptions. Oftentimes, they don’t even need names.
+
+Mary Sues
+---------
+
+A Mary Sue (or Gary Stu) is a character who’s likeable and perfect to the point where they’re unrealistic and everything in the story they’re in bends to their will and goes their way. Good characters fall in love with them or become their best friends, bad characters hate them obsessively, and everyone who opposes them is eventually proven to be wrong or bad.
+
+Mary Sues are probably the most misunderstood thing in amateur writing (fanfiction and otherwise). Pretty much every character will be called a Mary Sue if you ask the right person about it, while others will defend obvious Sues to the death (usually ones of their own creation). I’ve seen everything from “Twilight Sparkle is a Mary-Sue because she’s Princess Celestia’s personal student and has super magic” to “her name is eggoggy not mary su shes not perfect shes depressed nd she cuts herself!!!”
+
+A Mary Sue is defined by how the world reacts to her. You can have a weak, flawed character without any conventional Mary Sue markings [[Exotic names, special powers, unlikely knowledge, tragic backstories, pointless physical features, etc...]] still be a Mary Sue if you mishandle how she is treated by the world she lives in.
+
+Do all the characters you like like your character? Do all the characters you dislike hate her? Does every character talk about your character and obsess over her at the expense of everything else going on in their lives? Are there any characters that don’t really care about your character? If she's a Sue, the answers will be yes, yes, yes, and no.
+
+The most important thing you can do to avoid making your character a Mary Sue is have other characters act realistically around her. They’re not going to just become her best friend or fall in love with her if they’ve only just met her. They're not going to hate her with every fibre of their being and dedicate their lives to enacting vengeance on her either. That’s not how people work.
+
+If your character is a real character, she will have a specific personality. And the thing about personalities is that sometimes they clash. Not everyone gets along just like that.
+
+Considering the different personalities of the mane six, it’s unlikely that every single one of them will take an instant liking to the character you’ve created. Rarity might find her uncouth, or Applejack may find her too pretentious, or Rainbow Dash may think she’s a spy. Explore these reactions and relationships, and your stories and characters can only benefit.
+
+All that said, it’s still a good idea to avoid common Mary Sue tropes like the ones listed in the footnote from earlier on. The problem with exotic names and special powers is one of justification. A realistic character can do the things she can do and is the way she is because of things that she’s done and choices that she’s made, not just because “it would be cool”.
+
+Finally, a note about characters that are better than canon characters: tread carefully. If you’re going to write about a pegasus who’s faster than Rainbow Dash or a unicorn who’s more magical than Twilight Sparkle, stop and ask yourself why you can’t just write about Rainbow Dash or Twilight Sparkle instead. If you don’t come up with a good answer, scrap the character. (This sort of thing is probably why it’s easier to write a Mary Sue in fanfiction than it is to do so in original fiction.)
+
+[% END %]

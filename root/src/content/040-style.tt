@@ -221,6 +221,42 @@ I can give the same general advice for messing around with fonts and font sizes:
 
 <span class="del">Strikethroughs are basically amazing and will make every fic 20% cooler.</span> Strikethoughs should only be used in comedy trollfics. [[In narration, that is. Epistolary stories like _[Yours Truly](http://www.equestriadaily.com/2012/02/story-yours-truly.html)_ and _[Simply Rarity](http://www.equestriadaily.com/2011/06/story-simply-rarity.html)_ have used strikethroughs in character-written letters to great effect.]]
 
+Footnotes and links
+-------------------
+
+I daresay I love footnotes even more [[Reading a footnote is like opening a treasure chest of tangential information!]] than I love colours. I’ve even tried using them in fiction before. Spoiler: it didn’t work. Using a footnote to do an exposition dump isn’t a clever way of doing an exposition dump – it’s taking the reader out of the story to bombard them with boring facts. They’re especially bad in online fiction because of the scrolling one generally has to do to reach them.
+
+Links are even more troublesome than footnotes, and sadly more widely used. Don’t link to music in your story – many readers listen to their own music while reading, and have no interest in pausing it. Also, using music to make up for the emotional shortcomings of your writing is a cheap tactic that probably won’t even work most of the time, because different people read at different speeds.
+
+As for explanatory wiki or other website links, well, I don’t think we’re quite ready for those just yet. Keep those for when human minds have become so accustomed to soaking in tonnes of information every second that wiki links become mandatory features of stories. Right now, most readers don’t appreciate breaking their immersion to check out some webpage.
+
+If you’re really set on putting links in your work, and I absolutely cannot convince you otherwise, then go completely overboard. Use multiple documents, have as many links as possible, make weird mazes, and tell some kind of weird interactive avant-garde hypertext story or something. I’m sure someone will appreciate it.
+
+Same with footnotes, actually. The occasional link or footnote is the death of immersion, but barrages of them create a new kind of immersion.
+
+Overused expressions
+--------------------
+
+If I read about another character “going bright red” or “going beet red”, I swear I am going to pop a blood vessel and go bright red myself. [[The same goes for “turning the same colour as a red thing” (Apple Bloom’s hair, often).]] If your character must blush, say that they blushed, or find another way of saying it figuratively. Better yet, find your character another nervous/embarrassed affectation.
+
+>*“Scootaloo's cheeks flamed from within.”*  
+>—short_skirts_and_explosions, showing us how it’s done [[Don’t actually use this as a substitute for “turned beet red”.]]
+
+Ponyfic-specific example: Celestia’s sun and Luna’s moon. I’m sure both of those expressions were delightfully clever ways to remind the reader what property your fic was based on the first time they were ever used. Between then and now, they became hoary old clichés that will only ever elicit groans. Do not use these expressions as replacements of “the sun” and “the moon”.
+
+Eyes are eyes. They are not “orbs”. No one who has read the <span class="del">Orb</span> Eye of Aragon will be able to take you seriously if you use this expression. Even people who haven’t will likely laugh at you behind your back (more than they usually do).
+
+I don’t know what it is about the phrase, but far too many authors have a love affair with “going about [their/her/his/its] daily routine”. It’s cliche and empty. Try saying what the character(s) in question are/is actually doing instead.
+
+Your personal style and creative voice
+--------------------------------------
+
+Developing a unique voice is essential to good writing, and all the rules of grammar and style in the world can take a backseat when they become a hindrance to creativity (or even to readability). However, it takes a lot longer to develop a real creative voice than you may think, and I cannot overstress the importance of learning the rules before you break them.
+
+Picasso knew how to paint realistically, but he chose not to because of the nature of what he was trying to convey with his art. Without having mastered all the techniques he required for traditional painting, he would never have been able to break out of that mold and create a meaningful new style.
+
+The rules of grammar, spelling, typography, and all the rest of that sort of thing were invented by smart, knowledgeable people, and they generally have good reasons for being the way they are. Endeavour to learn these reasons so that you can make more informed decisions about when to go against them.
+
 Formatting
 ----------
 
@@ -263,7 +299,7 @@ Personally, I like the second option. The first makes sense for printed books �
 
 ### Section spacing
 
-When a large change in scenery happens, you need to communicate that to the reader somehow. In some cases this can be worked into the prose, but other times it's better done through the use of scene breaks. Scene breaks come in all shapes in sizes:
+When a large change in scenery happens, you need to communicate that to the reader somehow. In some cases this can be worked into the prose, but other times it's better done through the use of scene breaks. Scene breaks come in all shapes and sizes:
 
 * An HTML horizontal line
 * A lightweight centred image (for example, in _[The Glass Blower](http://www.fimfiction.net/story/3228/The-Glass-Blower)_)
@@ -275,8 +311,8 @@ As always, consistency is key.
 
 In addtion, sometimes you need a scene break that just doesn't quite justify the full weight of a proper scene break. For that, there's weak scene breaks:
 
-* When using _indented paragraphs_, weak scene breaks can be indicated by inserting a blank line and then resetting the indent.
-* When using _double spaced paragraphs_, weak scene breaks may be indicated by inserting a blank paragraph.
+* When using **indented paragraphs**, weak scene breaks can be indicated by inserting a blank line and then resetting the indent.
+* When using **double spaced paragraphs**, weak scene breaks may be indicated by inserting a blank paragraph.
 
 ### Quotation marks
 
