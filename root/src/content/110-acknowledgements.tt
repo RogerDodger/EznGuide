@@ -1,0 +1,23 @@
+[% FILTER markdown %]
+
+Acknowledgements
+================
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+All of the grammar rules I’ve learnt and the information I’ve gathered comes from somewhere else. Some of it I learnt in English class, some of it I was told by people who commented on/reviewed my work, and some of it comes from lurking. In no particular order:
+
+* My English teachers at school
+* Various internet dudes and ladies
+* The reviewers on Ponychan’s /fic/ (especially Demetrius, Vanner, Cassius, MintyRest, Kurbz and the samurai)
+* The authors of some of those books I listed in the previous section
+
+I used some text from Sergeant Sprinkles’s _[Cupcakes](http://www.equestriadaily.com/2011/02/story-cupcakes.html)_ for a few miscellaneous examples, so thanks to him for traumatising everypony with his story. On the subject of example text, most of it comes from my own story, _[Long Distance](http://www.equestriadaily.com/2011/09/story-long-distance.html)_. Thanks are due to me (from me) for writing that.
+
+Pav Feira helped out with the section on crossovers. EustatianWings and Nietzsche helped with the section on shipping. Chris pointed out some things about thesauruses. Raharu Haruha helped out with the guide’s overall tone and a few miscellaneous points.
+
+Thanks are also due to those people on Ponychan who helped proofread this (somuchderp, sincerelyfake, and roys2293) and make it more accessible for the colourblind (Demetrius, Filler, and One-Eyed Scarecrow).
+
+Also thanks to you, the reader, for reading my guide. I hope it was helpful.
+
+[% END %]

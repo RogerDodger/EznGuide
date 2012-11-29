@@ -187,11 +187,12 @@ $content =~ s`
 
 say "processing abbreviations";
 my %abbr = (
-	OC   => 'Original Character',
-	EqD  => 'Equestria Daily',
-	LUS  => 'Lavender Unicorn Syndrome',
-	FiM  => 'Friendship is Magic',
-	MLP  => 'My Little Pony',
+	OC     => 'Original Character',
+	EqD    => 'Equestria Daily',
+	LUS    => 'Lavender Unicorn Syndrome',
+	FiM    => 'Friendship is Magic',
+	MLP    => 'My Little Pony',
+	'Fo:E' => 'Fallout: Equestria',
 );
 
 while( my($abbr, $fullname) = each %abbr ) {
