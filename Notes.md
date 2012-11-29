@@ -30,6 +30,9 @@ Section on prepositions will probably be moved/superseded by the grammar section
 ### 080-publishing.tt
 
 * Line 21 - "Rating bombing" doesn't really exist anymore
+* Line 25 - Anon commenting has been disabled on da fimfs for like a year, bro
+* Line 71 - 24 September, what year?
+* Line 96 - Swapped the TVTropes link out for something written by actual lawyers
 
 ### eznguide.css
 

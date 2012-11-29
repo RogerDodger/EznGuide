@@ -195,16 +195,16 @@ ul.footnotes li {
     list-style-type: none;
 }
 .contents li.h1 {
-    text-indent: 2em;
+    padding-left: 2em;
 }
 .contents li.h2 {
-    text-indent: 4em;
+    padding-left: 4em;
 }
 .contents li.h3 {
-    text-indent: 6em;
+    padding-left: 6em;
 }
 .contents li.h4 {
-    text-indent: 8em;
+    padding-left: 8em;
 }
 
 .backtop {
