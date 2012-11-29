@@ -1,0 +1,62 @@
+[% FILTER markdown %]
+
+Publishing
+==========
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+Now we come to the most superfluous part of my little guide, where I’ll be discussing what little I know about throwing your story out into the world and having people read it.
+
+Websites
+--------
+
+FiM fanfiction has the great advantage of having at least three different showcase sites (well, I’ve used three) specifically made for it, all of which are fairly nice places with different advantages. If you want a lot of people to read your work, cross-posting is a good idea.
+
+###<a href="http://www.equestriadaily.com/">Equestria Daily</a>
+
+As I’m sure you’re well aware, EqD is the central internet hub for all things brony. They’ve got news, music, videos, fics, art, and tonnes of other pony-related miscellany. They also have a large team of pre-readers who separate the chaff from the wheat fic-wise, ensuring that only the cream of the crop gets posted. All fic authors aspire to get their stuff up on there, because *dayum*, having an EqD author tag means you’ve made it, right?
+
+Stories posted on Equestria Daily, are, of course, actually hosted on Google Docs, Fimfiction, or another site.
+
+*A note about getting on Equestria Daily:* you don’t have to. Too many authors put too much stake into getting on Equestria Daily, and it’s kind of silly. Beyond its quality standards, EqD has specific content standards that keep stuff on the site accessible and appropriate. Your crossover with Obscure Hipster Thing is likely not something most people who visit EqD will be interested in, and your _Cupcakes_ sequel would get rating-bombed and cause massive, unwanted drama if it was posted.
+
+###<a href="http://www.fimfiction.net/">Fimfiction</a>
+
+A very slick, very web 2.0 site, Fimfiction is the community’s main ponyfic archive. Despite its reputation as an undignified hugbox, it’s actually a pretty good place to put your work if you want people to read it. Most stories get at least a few comments, and it has some really nifty tracking and viewcount features. Also, it’s not entirely hugboxy – you’ll find the occasional (usually anonymous) critic.
+
+###<a href="http://www.ponyfictionarchive.net/">Pony Fiction Archive</a>
+
+Damnit, use this site, people! It’s got a clean layout, very sophisticated posting and searching systems, automatic e-reader conversion, and even a page about grammar and stuff! It’s really a shame that it isn’t more popular.
+
+You can also post fics on <a href="http://www.deviantart.com/">deviantART</a> and <a href="http://www.fanfiction.net/">Fanfiction.net</a>, but please don’t. Our pony sites are far superior.
+
+Tags
+----
+
+Websites like Equestria Daily and FIMfiction ask you to tag your stories based on their content, using a set of generally-understood categories. There are actually a fair number of them, and you can even invent your own, if you really want, but the most common ones are as follows:
+
+* [#Normal] is used for fics that keep to the show’s general tone, and are about the sorts of mundane, day-to-day life situations that most episodes are about. Some of these fics could pass for actual episodes themselves. This is also (more aptly, I think) known as [#Slice of Life].
+* [#Sad] fics are ones that were written to make you cry. Don’t read something with this tag if you want to feel good about things for the rest of the day.
+* [#Comedy] stories are thick with jokes, or at least based on some very silly basic concept.
+* [#Random] stories are similar to comedy ones, but tend to be a lot weirder and are often full of references to internet culture. This tag is good for trollfics.
+* [#Adventure] fics have ponies going to faraway lands (or not) and having all kind of epic adventures.
+* [#Shipping] is the fandom’s word for romance. Stories primarily about the development of romantic relationships between ponies get this label.
+* [#Grimdark] is for when you want to write a story that’s a few shades darker than the feel of the show. In these fics, there is gore and violence and swearing – well, not always. You’ll see variations like [#Dark] and [#Grimlight] around a lot, because no-one can agree on exactly what this tag is actually supposed to mean.
+* [#Crossover] is for when your story is a crossover. That one’s pretty self-explanatory.
+* [#Sci-Fi] stories are about technology and the future. Think HG Wells or Isaac Asimov (or William Gibson, or Douglas Adams) <span class="caps">with ponies</span> (and then please, please write it).
+
+Opinions differ about how these tags should be used, and how many should be applied to a single fic, but here are my thoughts:
+
+With tags, less is more. _It's a Dangerous Business, Going Out Your Door_ and _Fallout: Equestria_ both contained a romantic subplot or two, but neither had a shipping tag. Most films these days also have romantic subplots, but that doesn't make them romantic movies.
+
+My personal recommendation is that you choose one or two tags (at most three) that are most relevant and use them. Any more than that and things start to look a little messy.
+
+Ask yourself what the main plot of your story is. If it's romance, use [#Shipping]. If it's adventure, use [#Adventure]. If it's day-to-day life (like the show proper) use [#Slice of Life] (or [#Normal], I guess, but [#Slice of Life] is a more descriptive tag). If it's an examination on the effect of some technology or discovery on Equestrian society (or if it's set in <span class="caps">space</span> / the <span class="caps">world of tomorrow</span>), use [#Sci-Fi] (not that anyone really writes much pony science fiction).
+
+Only use [#Comedy] if your fic is joke-heavy. Only use [#Sad] if your main goal is making the reader cry. Only use [#Shipping] if your main plot is the development of a romantic relationship.
+
+[#Grimdark] and [#Crossover] are basically warning labels about the content. They'll drive some folk away, but others seek them out. Use [#Grimdark] if your story's got teeth, and [#Crossover] if you're crossing over with something.
+
+Some notes on [#Slice of Life] and [#Normal]: A story cannot be both [#Adventure] and [#Slice of Life] – they imply completely different structures. Also, because _Friendship is Magic_ is very much a [#Slice of Life] show, [#Sad], [#Comedy], and [#Shipping] stories all have implicit [#Slice of Life] tags – fics are assumed to be [#Normal] in tone until evidence to the contrary is given. These tag are best used for stories for which no other tags apply, as they look either redundant or contradictory next to anything else. And please don't tag anything with both [#Slice of Life] and [#Normal].
+
+[% END %]

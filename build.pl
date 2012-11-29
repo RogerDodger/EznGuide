@@ -178,13 +178,12 @@ if( @footnotes = map { ref $_ ? @$_ : $_ } @footnotes )
 }
 
 say "processing tags";
-my $tag_class;
-$content =~ s/
+$content =~ s`
 	\[\#
 	(.*?)
-	(?{ $tag_class = simple_uri(lc $^N) })
+	(?{ $a = simple_uri(lc $^N) })
 	\]
-/<span class="tag $tag_class">$1<\/span>/xg;
+`<span class="tag $a">$1</span>`xg;
 
 say "processing abbreviations";
 my %abbr = (
