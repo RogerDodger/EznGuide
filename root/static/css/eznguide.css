@@ -323,6 +323,52 @@ ul.footnotes li {
     text-decoration: line-through;
 }
 
+.tag {
+    font-weight: bold;
+}
+.tag:before {
+    content: "[";
+}
+.tag:after {
+    content: "]";
+}
+.tag.normal {
+    color: #38761D;
+}
+.tag.slice-of-life {
+    color: #0F007E;
+}
+.tag.sad {
+    color: #F24CB7;
+}
+.tag.comedy {
+    color: #F1C232;
+}
+.tag.random {
+    color: #90F;
+}
+.tag.adventure {
+    color: #09C;
+}
+.tag.shipping {
+    color: #E36C0A;
+}
+.tag.grimdark {
+    color: #900;
+}
+.tag.dark {
+    color: #600;
+}
+.tag.grimlight {
+    color: #E69138;
+}
+.tag.crossover {
+    color: blue;
+}
+.tag.sci-fi {
+    color: #90F;
+}
+
 /*
  * Tables
  */

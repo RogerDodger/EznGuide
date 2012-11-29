@@ -36,6 +36,24 @@ sub simple_uri {
 	return $str;
 }
 
+sub html_guts {
+	my($e, $ignore) = @_;
+
+	return join "", map {
+		if(ref $_) {
+			if($_->tag ~~ $ignore) {
+				html_guts($_, $ignore);
+			}
+			else {
+				sprintf "<%s>%s</%s>", $_->tag, html_guts($_, $ignore), $_->tag;
+			}
+		}
+		else {
+			$_
+		}
+	} $e->content_list;
+}
+
 chdir($Bin);
 
 my ($config) = YAML::LoadFile( "config.yml" ) 
@@ -100,7 +118,7 @@ for my $fn ( glob "content/*" ) {
 }
 chdir('../static');
 
-#Process footnotes
+say "processing footnotes";
 my @footnotes;
 
 my $b = quotemeta( my $begin_tag = '[[' );
@@ -159,7 +177,29 @@ if( @footnotes = map { ref $_ ? @$_ : $_ } @footnotes )
 	$content .= "</ul>\n";
 }
 
-#Process headings
+say "processing tags";
+my $tag_class;
+$content =~ s/
+	\[\#
+	(.*?)
+	(?{ $tag_class = simple_uri(lc $^N) })
+	\]
+/<span class="tag $tag_class">$1<\/span>/xg;
+
+say "processing abbreviations";
+my %abbr = (
+	OC   => 'Original Character',
+	EqD  => 'Equestria Daily',
+	LUS  => 'Lavender Unicorn Syndrome',
+	FiM  => 'Friendship is Magic',
+	MLP  => 'My Little Pony',
+);
+
+while( my($abbr, $fullname) = each %abbr ) {
+	$content =~ s`$abbr`<abbr title="$fullname">$abbr</abbr>`g;
+}
+
+say "processing headings";
 my $tree = HTML::TreeBuilder->new;
 $tree->no_expand_entities(1);
 $tree->parse($content);
@@ -172,7 +212,7 @@ for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 		push @headers, { 
 			class    => $e->tag,
 			href     => simple_uri( $e->as_text ),
-			contents => join '', map { ref $_ ? $_->as_HTML : $_ } $e->content_list,
+			contents => html_guts( $e, [ 'a' ] ),
 		}; 
 
 		#Prepend an anchor to the header

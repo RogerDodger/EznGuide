@@ -21,9 +21,16 @@ Section on prepositions will probably be moved/superseded by the grammar section
 
 ### 060-characters.tt
 
-Really not a big fan of using Mary Sue as any kind of literary term. It's just hogwash to me. Eh.
+* Really not a big fan of using Mary Sue as any kind of literary term. It's just hogwash to me. Eh.
 
 ### 070-plot.tt
 
-\>Grimdark
+* >Grimdark
 
+### 080-publishing.tt
+
+* Line 21 - "Rating bombing" doesn't really exist anymore
+
+### eznguide.css
+
+* `.tag.random` and `.tag.sci-fi` are the same colour
