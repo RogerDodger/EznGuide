@@ -1,0 +1,215 @@
+[%- BLOCK table %]
+<table class="solid center maxwidth">
+	[% row = 0; td = td.sort %]
+	<tr class="heading">
+		<td colspan="[% width %]" class="left">[% heading %]</td>
+	</tr>
+	[%- WHILE row * width < td.size %]
+	<tr class="[% row % 2 == 0 ? 'odd' : 'even' %]">
+		[%- FOREACH col IN [1 .. width] %]
+			[%- i = row * width + col - 1 %]
+			<td style="width: [% 100 / width | format('%.2f') %]%">[% td.${i} %]</td>
+		[%- END %] 
+		[% row = row + 1 %]
+	</tr>
+	[%- END %]
+</table>
+[%- END %]
+
+[% FILTER markdown %]
+
+Appendix A: Ponyfic Reference Sheet
+===================================
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+Up to this point, I’ve strived to make this guide very general. Most of what I’ve said in these pages can be applied to fiction-writing in general, and not just ponies. I think that’s a great strength, because I encourage anyone with a love for writing to spread their wings beyond ponies (and beyond fanfiction) when their ideas call for it.
+ 
+This section marks a narrowing of that scope.  Below is a set of character and place names commonly used in ponyfic and their spellings, and below that is a collection of pony/horse-specific terminology, a few corrections to widespread mistakes I’ve seen, and general advice on terminology the MLP fanfic author is likely to deal with.
+
+[% INCLUDE table  
+	heading = 'Mane six' 
+	td = [
+		'Applejack',
+		'Fluttershy',
+		'Pinkie Pie (Pinkamena Diane Pie)',
+		'Rarity',
+		'Rainbow Dash',
+		'Twilight Sparkle',
+	]
+	width = 3
+%]
+
+[% INCLUDE table
+	heading = 'Cutie mark crusaders'
+	td = [
+		'Apple Bloom (or Applebloom [[Because "Applejack".]])',
+		'Sweetie Belle',
+		'Scootaloo',
+	]
+	width = 3
+%]
+
+[% INCLUDE table
+	heading = 'Princesses'
+	td = [
+		'Princess Celestia',
+		'Princess Luna',
+		'Princess Cadance',
+	]
+	width = 3
+%]
+
+[% INCLUDE table
+	heading = 'Apple family'
+	td = [
+		'Big Macintosh',
+		'Granny Smith',
+		'Braeburn',
+	]
+	width = 3
+%]
+
+[% INCLUDE table
+	heading = 'Minor and single-episode characters'
+	td = [
+		'Cheerilee',
+		'Zecora',
+		'Hoity Toity',
+		'Photo Finish',
+		'Mysterious Mare-Do-Well',
+		'Jet Set and Upper Crust',
+		'Fancy Pants',
+		'Cheery Jubilee',
+		'Gustav',
+		'Murielle Mild',
+		'Doughnut Joe',
+		'Shining Armor',
+	]
+	width = 4
+%]
+
+[% INCLUDE table
+	heading = 'Foals'
+	td = [
+		'Snips',
+		'Snails',
+		'Twist',
+		'Diamond Tiara',
+		'Silver Spoon',
+		'Pipsqueak',
+		'Featherweight',
+		'Pound Cake',
+		'Pumpkin Cake',
+	]
+	width = 3
+%]
+
+[% INCLUDE table
+	heading = 'Pets'
+	td = [
+		'Winona',
+		'Angel [[Who is male.]] ',
+		'Gummy',
+		'Opalescence',
+		'Tank',
+		'Owlysius',
+	]
+	width = 3
+%]
+
+[% INCLUDE table
+	heading = 'Antagonists and semi-antagonists'
+	td = [
+		'Nightmare Moon',
+		'Discord',
+		'Queen Chrysalis',
+		'Gilda',
+		'The Great and Powerful Trixie',
+		'Prince Blueblood',
+		'Flim',
+		'Flam',
+		'Iron Will',
+	]
+	width = 3
+%]
+
+[% INCLUDE table
+	heading = 'Cities and towns'
+	td = [
+		'Ponyville',
+		'Canterlot',
+		'Cloudsdale',
+		'Appleloosa',
+		'Manehattan',
+		'Dodge Junction',
+		'Las Pegasus',
+		'Fillydelphia',
+		'Baltimare',
+	]
+	width = 3
+%]
+
+[% INCLUDE table
+	heading = 'Historical figures',
+	td = [
+		'Princess Platinum',
+		'Chancellor Puddinghead',
+		'Commander Hurricane',
+		'Clover the Clever',
+		'Smart Cookie',
+		'Private Pansy',
+		'Star Swirl the Bearded (or Starswirl the Bearded)',
+	]
+	width = 3
+%]
+
+[The MLP wiki](http://mlp.wikia.com/wiki/My_Little_Pony_Friendship_is_Magic_Wiki) is a good resource to check for [the generally accepted names of background ponies and their spellings](http://mlp.wikia.com/wiki/Background_ponies).
+
+Terminology
+-----------
+
+An adult male pony is called a **stallion**, not a “buck”. [[And [here’s the Wikipedia reference](http://en.wikipedia.org/wiki/Buck). I liked _Fallout: Equestria_ as much as the next person, but please don’t copy Kkat’s mistaken terminology in fics unrelated to it.]] A child male pony is called a **colt**.
+ 
+An adult female pony is called a **mare**. A child female pony is called a **filly**.
+ 
+A child pony of either gender is called a **foal** (this is occasionally muddled with “filly”).
+ 
+In _Friendship is Magic_, the characters often use the words “boy” and “girl” – please feel free to use them as well, authors. For obvious reasons, nopony has ever said “man” or “woman”.
+
+The use of “everypony”, “anypony”, and “nopony” are usually used as substitutes for ·body words irrespective of the species or range of species in the group being referred to. Exceptions to this rule include “somezebra” in “The Cutie Pox”.
+
+The mark on a pony’s flank is called a **cutie mark**, irrespective of gender (poor male ponies).
+
+[% INCLUDE table
+	heading = 'Species names' 
+	td = [
+		'earth pony',
+		'unicorn pony',
+		'pegasus pony',
+		'griffon [[While “griffin” and “gryphon” are alternatives, “griffon” is the spelling used in “Griffon the Brush-Off”. Use an alternative if you wish, but be consistent about it.]]',
+		'manticore',
+		'hydra',
+		'minotaur',
+		'draconequus',
+		'windigo',
+		'parasprite',
+		'changeling',
+		'alicorn/princess [[The former is a name used by the fandom, and the latter could be argued to be the official species name for winged unicorns. If you don’t like either, “winged unicorn” or “pegacorn” could also be options to consider.]]',
+	]
+	width = 3
+%]
+
+On the capitalisation of race names: either do it for all of them or don’t do it for any – both systems have been used in fiction by different authors. Be consistent, and ignore spellcheck’s insistence on “Pegasus” if you’re not capitalising. [[Spellcheck thinks you’re talking about Hercules’ flying horse rather than the species it names.]] If you’re not sure which method to use, don’t capitalise – that’s moreorless the fandom standard.
+ 
+On the pluralisation of pegasus: technically speaking, you can say “pegasi”, “pegasuses”, “pegasai” or even “pegasudes”, depending on what tickles your fancy. ([Here’s /fic/’s anonymous samurai on why](http://pastebin.com/9as2ZGGb).) That aside, “pegasi” is the most commonly used and accepted form in both the show and the fandom and would probably be the best choice.
+ 
+[Here’s a useful horse anatomy diagram applied to ponies](http://catspaw-dtp-services.deviantart.com/art/Pony-conformation-chart-244796744) (thanks to Catspaw on deviantART), and here are a few points to keep in mind:
+
+* While “arms” is an acceptable term for a pony’s front legs, many authors like to use “forelegs” instead. Be consistent.
+* In technical horse anatomy terms, a pony’s “flank” is not the part of her body her cutie mark is on. However, “blank flank” is just too good a rhyme to pass up.
+* Many readers may be unfamiliar with horse anatomy, so don’t go overboard. Err on the side of understandability
+ 
+When in doubt, look it up. Google or Wikipedia should be able to provide you with satisfactory answers to most terminology questions.
+
+[% END %]
