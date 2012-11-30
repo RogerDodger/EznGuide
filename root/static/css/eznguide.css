@@ -237,6 +237,14 @@ ul.footnotes li {
 .noafter + * {
     margin-top: 0;
 }
+.maxwidth {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+}
 
 /*
  * Content
@@ -375,35 +383,45 @@ ul.footnotes li {
   
 table { 
 	border-collapse: collapse;
+    margin: 1em 0;
 }
 
-.left, 
-td.left,
-th.left, 
+.left,
 .left th,    
 .left td { 
 	text-align: left; 
 }
-.justify
-td.justify,
-th.justify, 
+.justify,
 .justify th, 
 .justify td { 
 	text-align: justify; 
 }
 .right,
-th.right, 
-td.right,
 .right th,   
 .right td { 
 	text-align: right; 
 }
-.center,
-th.center, 
-td.center, 
+.center, 
 .center th,  
 .center td { 
 	text-align: center; 
+}
+
+td.left,
+th.left {
+    text-align: left;
+}
+td.justify,
+th.justify {
+    text-align: justify;
+}
+th.right, 
+td.right {
+    text-align: right;
+}
+th.center, 
+td.center {
+    text-align: center;
 }
 
 table.plain td,
@@ -413,7 +431,7 @@ table.plain th {
 
 table.solid tr.heading {
 	font-size: 1.1em;
-	font-variant: small-caps;
+	font-weight: bold;
 }
 table.solid td, 
 table.solid th {

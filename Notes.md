@@ -34,6 +34,10 @@ Section on prepositions will probably be moved/superseded by the grammar section
 * Line 71 - 24 September, what year?
 * Line 96 - Swapped the TVTropes link out for something written by actual lawyers
 
+### 120-appendix-a.tt
+
+* Line 188 - it's just "unicorn"
+
 ### eznguide.css
 
 * `.tag.random` and `.tag.sci-fi` are the same colour
