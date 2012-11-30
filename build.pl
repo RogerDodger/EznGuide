@@ -60,7 +60,7 @@ my ($config) = YAML::LoadFile( "config.yml" )
 	or die "Config file not found. Have you created it yet?";	
 die "$config->{path} is not a directory" unless -d $config->{path};
 
-my $builddir = "$config->{path}/EznGuide";
+my $builddir = "$config->{path}/www-eznguide";
 
 unless( -e "$builddir/favicon.ico" ) {
 	say "create $builddir/favicon.ico";
