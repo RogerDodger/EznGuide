@@ -9,5 +9,5 @@ chdir($Bin);
 my $stdout = `git pull git://github.com/RogerDodger/EznGuide.git master`;
 
 if( $stdout ne "Already up-to-date.\n" ) {
-	`./eznguide_build.pl`;
+	exec './eznguide_build.pl';
 }
