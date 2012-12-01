@@ -8,6 +8,6 @@ chdir($Bin);
 
 my $stdout = `git pull git://github.com/RogerDodger/EznGuide.git master`;
 
-if( index( $stdout, 'Already up-to-date.' ) == -1 ) {
+if( $stdout ne "Already up-to-date.\n" ) {
 	`./eznguide_build.pl`;
 }
