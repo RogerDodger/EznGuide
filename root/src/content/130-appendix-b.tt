@@ -1,0 +1,69 @@
+[% FILTER markdown %]
+
+Appendix B: Useful Links
+========================
+
+<p class="timestamp">Last modified: [% template.modtime | time %]</p>
+
+Let it never be said that my humble guide is the last word on writing. The internet is full of wonderful writer's resources, some of which helped me write this guide, some of which I found later and many of which I've never seen. Some of what’s below has been linked to above, but not everything.
+ 
+If you have any useful links you think I should add, shoot me an email.
+ 
+* [Kurt Vonnegut’s Eight Rules for Writing](http://thoughtcapital.wordpress.com/2007/04/13/kurt-vonneguts-8-rules-for-writing/) ([a note on "to hell with suspense"](http://www.yingleyangle.com/2010/04/how-to-use-kurt-vonneguts-advice-to.html))
+* [Mark Twain’s Rules of Writing](http://www.mamohanraj.com/Writing/twain.html)
+* [Pixar's Story Basics](http://www.pixartouchbook.com/blog/2011/5/15/pixar-story-rules-one-version.html)
+
+__Other pony writing guides__
+
+* [The EqD Editor’s Omnibus](https://docs.google.com/document/d/1WMMs8H-GpFIXPsQeC0RNu8V-Cq6uyGl_UERpOUK_6KY/edit)
+* [Cereal Velocity’s Pony Writing Guide](http://www.equestriadaily.com/2011/02/pony-writing-guide.html)
+* [Escher’s Hints](https://docs.google.com/document/d/1gItgz9pF4dT1kS8APsbuQHA1l9Q5kPY8vCVXjpxo2NA/edit?hl=en_US&authkey=CKbFlMkN)
+
+__General plotting__
+
+* [Film Critic Hulk](http://filmcrithulk.wordpress.com/) – mainly concerned with film critique, but still useful for any kind of plotting.
+* [Extra Credits](http://extra-credits.net) – a show about game design that occasionally has episodes about things that apply to story-telling in general.
+ 
+__Other general writing guides and writing websites__
+
+* [A Fanfic Writer's Guide to Writing](http://www.accessdenied-rms.net/guide/fwg.txt)
+* [Daily Writing Tips](http://www.dailywritingtips.com/)
+ 
+__Useful grammar and style references__
+
+* General grammar:
+  * [Towson University Online Writing Support](http://www.towson.edu/ows/index.htm)
+  * [Grammar Girl](http://grammar.quickanddirtytips.com/)
+* Comma splices:
+  * [What Is a Comma Splice, and How Do I Fix It?](http://grammartips.homestead.com/splice.html)
+  * [Grammar Girl on Comma Splices](http://grammar.quickanddirtytips.com/comma-splice.aspx)
+* Dialogue:
+  * [The Editor’s Blog on dialogue punctuation](http://theeditorsblog.net/2010/12/08/punctuation-in-dialogue/)
+  * [Be a Better Writer on dialogue punctuation](http://www.be-a-better-writer.com/punctuate-dialogue.html)
+  * [How to Punctuate, Use Tags, and Vary the Structure of Your Dialogue](http://www.crayne.com/articles/Dialogue--How-to-Punctuate,-Use-Tags,-and-Vary-the-Structure-of-Your-Dialogue.pdf)
+
+__Showing and telling__
+
+* [Show, Don’t (Just) Tell](http://jerz.setonhill.edu/writing/creative1/showing/)
+* [Tell, Don’t Show](http://www.coffeehouseforwriters.com/fictionfix/0505Grossack.html)
+ 
+__Writing programs__
+
+* [Google Docs](https://docs.google.com)
+* [Libre Office](http://www.libreoffice.org/)
+* [WriteMonkey](http://writemonkey.com/)
+* [ZenWriter](http://www.beenokle.com/zenwriter.html)
+
+__Dictionaries and resource websites__
+
+* [WordWeb](http://wordweb.info/free/)
+* [RhymeZone](http://www.rhymezone.com/)
+* [GoldenDict](http://goldendict.org/)
+
+__MLP:FiM fanfiction resources__
+
+* [MLP Wiki](http://mlp.wikia.com/wiki/My_Little_Pony_Friendship_is_Magic_Wiki)
+* [Ponychan's /fic/ board](http://www.ponychan.net/chan/fic/)
+* [MLPchan's /fic/ board](http://mlpchan.net/fic/)
+
+[% END %]

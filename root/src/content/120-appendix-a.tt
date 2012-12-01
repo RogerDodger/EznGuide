@@ -1,5 +1,5 @@
 [%- BLOCK table %]
-<table class="solid center maxwidth">
+<table class="solid center maxwidth even width-[% width %]">
 	[% row = 0; td = td.sort %]
 	<tr class="heading">
 		<td colspan="[% width %]" class="left">[% heading %]</td>
@@ -8,7 +8,7 @@
 	<tr class="[% row % 2 == 0 ? 'odd' : 'even' %]">
 		[%- FOREACH col IN [1 .. width] %]
 			[%- i = row * width + col - 1 %]
-			<td style="width: [% 100 / width | format('%.2f') %]%">[% td.${i} %]</td>
+			<td>[% td.${i} %]</td>
 		[%- END %] 
 		[% row = row + 1 %]
 	</tr>

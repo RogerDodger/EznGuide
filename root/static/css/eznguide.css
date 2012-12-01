@@ -424,6 +424,19 @@ td.center {
     text-align: center;
 }
 
+table.even.width-2 td {
+    width: 50%;
+}
+table.even.width-3 td {
+    width: 33.33%;
+}
+table.even.width-4 td {
+    width: 25%;
+}
+table.even.width-5 td {
+    width: 20%;
+}
+
 table.plain td,
 table.plain th {
 	padding: 0.25em 0.5em;
