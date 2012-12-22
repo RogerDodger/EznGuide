@@ -10,7 +10,7 @@ Task-EznGuide dummy module.
 
 - `EznGuide$ cd Task-EznGuide`
 - `EznGuide/Task-EznGuide$ cpan .`
-- `EznGuide/Task-EznGuide$ ./Build realclean`
+- `EznGuide/Task-EznGuide$ make realclean`
 
 Copy the config file and edit it appropriately.
 
