@@ -131,7 +131,7 @@ my $tt = Template->new({
 			my $text = shift;
 
 			$text = Text::Markdown->new->markdown($text);
-			$text = Text::SmartyPants::process($text);
+			$text = Text::SmartyPants::process($text, 2); # Educate -- to en, and --- to em dashes
 
 			return $text;
 		},

@@ -5,42 +5,29 @@ Grammar
 
 <p class="timestamp">Last modified: [% template.modtime | time %]</p>
 
-Tenses
-------
+_[This section is a work in progress.]_
 
-There are five tenses you need to worry about:
+Grammar is rather difficult to explain simply. In many ways, it's impossible to make a complete and coherent description of any natural language. It's even worse with English, which in just the last hundred years has had enormous changes in the way it's spoken. English texts on grammar from the early half the 1900's are already filled with antiquated if not entirely incorrect information.
 
-1. Present  
-<span class="good">I run.</span>
+But hope is not lost. Most of us have the very nice advantage of having practised English grammar for our entire lives. In terms of knowledge, there is very little between instinctively knowing that something is or is not grammatical and formally understanding *why* it is so. The hardest part is understanding the jargon. There's a fair bit of it, and not everyone can agree on the definitions of even some of the most basic building blocks of English grammar.
 
-2. Present perfect  
-<span class="good">I am running.</span>
+For this reason, the first (and perhaps subsequent) appearance of any jargon used in this section will be indicated with **boldface**, and any such word is guaranteed to have an entry in the glossary. That way we're working with a common language.
 
-3. Past  
-<span class="good">I ran.</span>
+I don't profess to be any expert in grammar. I'm more a computer science guy (which, despite what you might think, isn't all too far away from the subject). Most of what I'll be explaining here will be my own verbalisation of Rodney Huddleston and Geoffrey K. Pullum's [A Student's Introduction to English Grammar](http://www.amazon.com/Students-Introduction-English-Grammar/dp/0521612888). In fact, if you have the means to, I'd suggest that you stop reading right here and simply read that instead. If not, I guess you're stuck with me.
 
-4. Past perfect  
-<span class="good">I had run.</span>
+On that note, the target audience for this section is college-aged students with English as their first language. [[If my understanding of the FiM fandom's demographic is right, that'll be pretty on-point for most of you.]] Most of what I say will be a descriptivist approach to grammar. That is, I'll present examples of typical usage and then formalise that into a (somewhat) logical description of English. If English isn't your first language, such an approach might not make so much sense.
 
-5. Future  
-<span class="good">I will run.</span>
+With all that said, let's begin.
 
-99% of stories are written in the **past tense**. You get the occasional present tense story (Neal Stephenson’s _Snow Crash_ is the only published one I can think of off-hand [[_The Hunger Games_ by Suzanne Collins is another example, as Kurbz informs me.]]), but new writers are encouraged not to fiddle with that sort of thing until they’ve spent some quality time with traditional, past-tense writing. I don’t know of any notable stories (fanfiction or otherwise) written in future tense.
+Standard English
+----------------
 
-A mistake most new writers make quite a bit is tense inconsistency. Their stories will contain a ridiculous assortment of past tense and present tense verbs, and generally not because they’re daring metafictional pieces about time-travel. Tense mess ups like this are usually easy fixes, so just read through your story a few times to make sure no unintended time travelling occurs.
+English is the most widely spoken language in the world. [[Some sources cite Mandarin as having more speakers, but [modern estimates](http://www.britishcouncil.org/learning-faq-the-english-language.htm) tend to favour English. More to the point, it's almost universally agreed that English has the most non-native speakers, i.e., is the most widespread.]] With so many speakers from so many different cultures and backgrounds, it's inevitable that not all of them are speaking the same language as each other. A person in down town Brooklyn would surely not speak English the same way a person in Thailand does.
 
-A more subtle and also harder-to-explain error is the mixing of the past and past perfect tenses. In my experience, mistakes of this sort are usually made by non-native English speakers.
+More to the point, English encourages these variants. We have stolen words from French ("adieu", "per se", "bourgeois"), Italian ("piano", "spaghetti", "tempo"), German ("lager", "hamburger", "frankfurter"), Spanish ("cocoa", "macho", "tango"), Chinese ("shogun", "tofu", "zen"), Japanese ("karaoke", "karate", "samurai"), Russian ("gulag", "vodka"), and a whole host of others. I doubt there is a prosperous language alive today that we haven't poached for our vocabulary. [Unlike some languages](http://en.wikipedia.org/wiki/List_of_language_regulators), there is no central authority on English. [[In fact, in some countries, the language academies can act on legal grounds to keep "impure" language off of mass media and out of publication. Imagine all the trouble fantasy writers have...]] If it works, we'll take it. There are even some cultures that speak a mongrel of English and a more native language, producing an entirely new language.
 
-_[Editor’s note: The following is not really correct]_
+And [English has its origins in being a complete mongrel](http://knell63.hubpages.com/hub/English-the-Mungrel-language). What with how much fun everyone was having invading England back in the day, every war brought new words to the local lexicon. Then when Shakespeare came along and brought life to the language, half of the words in his plays didn't even exist in English yet. [[And some of them still don't, depending on what your definition of "word" is. A number of words in his plays have indiscernible meaning or origin.]]
 
-For example, <span class="bad">“She knew the place well because she *grew up* there”</span> should be <span class="good">“She knew the place well because she *had grown up* there”</span>. 
-
-The word “grew”, while a past tense word, is one that is used in present tense sentences. For example, the sentence “He likes maple syrup because he grew up in Canada” is a present tense sentence in which a past event is referenced. If you said, <span class="bad">“I like maple syrup because I grow up in Canada”</span>, you’d get some strange looks.
-
-When you convert a present tense sentence to the past tense, you need to convert all of its verbs and verb phrases to past tense versions of themselves, including “grew”, which becomes “had grown”. <span class="good">“He liked maple syrup because he had grown up in Canada.”</span>
-
-An often-overlooked part of getting tenses right is the proper use of words that refer to time. Words like “now”, “currently” and “today” should technically be avoided in past tense, because they are present tense words used to describe present tense happenings. So it’s often prudent to substitute “today” for “that day”. Substitute “now” and “currently” for “then”, or “at that moment”.
-
-However, it is sometimes appropriate to use some of these words in a past tense narrative, and it has been done in published books. My recommendation is to be careful about using them, but not cut them out entirely. A well-placed “now” brings the reader closer to that point in the story, but mess it up and your story will be flip-flopping all over the timeline. The use of a “yesterday” or a “today” in the context of character thoughts has also been done, even in published fiction.
+To simply describe "English" would be a task of impossible grandeur, because there are just that many dialects. Instead our goal is to describe "Standard English". Put simply, standard English is the dialect which in theory the largest number of English speakers speak. Usage contrary to this is considered "non-standard" English -- not necessarily wrong, but not the kind of language you would use to address a wide audience.
 
 [% END %]
