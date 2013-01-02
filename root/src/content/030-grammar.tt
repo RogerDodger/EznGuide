@@ -26,8 +26,144 @@ English is the most widely spoken language in the world. [[Some sources cite Man
 
 More to the point, English encourages these variants. We have stolen words from French ("adieu", "per se", "bourgeois"), Italian ("piano", "spaghetti", "tempo"), German ("lager", "hamburger", "frankfurter"), Spanish ("cocoa", "macho", "tango"), Chinese ("shogun", "tofu", "zen"), Japanese ("karaoke", "karate", "samurai"), Russian ("gulag", "vodka"), and a whole host of others. I doubt there is a prosperous language alive today that we haven't poached for our vocabulary. [Unlike some languages](http://en.wikipedia.org/wiki/List_of_language_regulators), there is no central authority on English. [[In fact, in some countries, the language academies can act on legal grounds to keep "impure" language off of mass media and out of publication. Imagine all the trouble fantasy writers have...]] If it works, we'll take it. There are even some cultures that speak a mongrel of English and a more native language, producing an entirely new language.
 
-And [English has its origins in being a complete mongrel](http://knell63.hubpages.com/hub/English-the-Mungrel-language). What with how much fun everyone was having invading England back in the day, every war brought new words to the local lexicon. Then when Shakespeare came along and brought life to the language, half of the words in his plays didn't even exist in English yet. [[And some of them still don't, depending on what your definition of "word" is. A number of words in his plays have indiscernible meaning or origin.]]
+And [English has its origins in being a complete mongrel](http://knell63.hubpages.com/hub/English-the-Mungrel-language). What with how much fun everyone was having invading England back in the day, every war brought new words to the local lexicon. When Shakespeare came along and revolutionised the language, half of the words in his plays didn't even exist in English yet. [[And some of them still don't, depending on what your definition of "word" is. A number of words in his plays have indiscernible meaning or origin.]]
 
 To simply describe "English" would be a task of impossible grandeur, because there are just that many dialects. Instead our goal is to describe "Standard English". Put simply, standard English is the dialect which in theory the largest number of English speakers speak. Usage contrary to this is considered "non-standard" English -- not necessarily wrong, but not the kind of language you would use to address a wide audience.
+
+There are a lot of definitions to go through, and a lot of it is going to be piggybacking on other definitions. So if you encounter a boldfaced word and it isn't quite explained yet, just bear with me (or flick over to the glossary).
+
+Sentences, clauses, and phrases
+-------------------
+
+A sentence is made of one or more **clauses**. In the grammatical sense, sentences don't have much interesting about them. You can join clauses together to form larger sentences. That's it.
+
+Clauses, on the other hand, are a very fickle beast. There are enormous tomes spent trying to define them, yet grammarians can never quite agree on a definition of what they are.
+
+The simplest kind of clause consists of a **predicate** and a **subject**:
+
+* The devil &cdot; is coming.
+* I &cdot; am Sam.
+
+A **predicate** has a verb phase as its head, and its associated **dependents** for the rest of it.
+
+Words and lexemes
+-----------------
+
+The term "word" is commonly used in two different senses, as the following sentence demonstrates:
+
+> As the lead wolf leaps to its prey, so too do the other wolves leap.
+
+The terms *wolf* and *wolves* both refer to the same animal. Likewise, *leap* and *leaps* refer to the same action. Generally speaking, most people will consider each separate words.
+
+However, in discussing grammar, the difference between *wolf* and *wolves* is a matter of **inflection**. They are still fundamentally the same term, referring to the same thing, but serving a different syntactical purpose. (One is singular, while the other is plural.) For the sake of this guide, the term *lexeme* will refer to the base word from which others are inflected: *wolves* is an **inflection** of the **lexeme** *wolf*.
+
+Lexeme categories
+--------------
+
+Generally speaking, lexemes can be categorised into eight different categories:
+
+<table class="plain" markdown="1">
+	<tr>
+		<td>i.</td>
+		<td>Nouns</td>
+		<td><span class="underline">I</span> wrote a <span class="underline">song</span>.</td>
+		<td><span class="underline">It</span> rains.</td>
+		<td>The <span class="underline">wind</span> blows.</td>
+	</tr>
+	<tr>
+		<td>ii.</td>
+		<td>Verbs</td>
+		<td>John <span class="underline">kissed</span> Sally.</td>
+		<td>The covenant<span class="underline">rules</span>.</td>
+		<td><span class="underline">Run</span> away.</td>
+	</tr>
+	<tr>
+		<td>iii.</td>
+		<td>Adjectives</td>
+		<td>Check out my <span class="underline">red</span> pen.</td>
+		<td>Alfred is <span class="underline">old</span>.</td>
+		<td><span class="underline">Dead</span> men tell no tales.</td>
+	</tr>
+	<tr>
+		<td>iv.</td>
+		<td>Adverbs</td>
+		<td><span class="underline">Only</span> Geoff remained.</td>
+		<td>You <span class="underline">just</span> don't understand.</td>
+		<td>Greg speaks <span class="underline">clearly</span>.</td>
+	</tr>
+	<tr>
+		<td>v.</td>
+		<td>Prepositions</td>
+		<td><span class="underline">Into</span> the valley they rode.</td>
+		<td>Come <span class="underline">over</span> to Jim's house.</td>
+		<td class="nonstandard">Where's Jim <span class="underline">at</span>?</td>
+	</tr>
+	<tr>
+		<td>vi.</td>
+		<td>Determinatives</td>
+		<td>Come have <span class="underline">some</span> apples.</td>
+		<td><span class="underline">The</span> dog barked.</td>
+		<td>I heard <span class="underline">a</span> voice.</td>
+	</tr>
+	<tr>
+		<td>vii.</td>
+		<td>Coordinator</td>
+		<td>John <span class="underline">and</span> Sally love each other.</td>
+		<td>It's neither here <span class="underline">nor</span> there.</td>
+		<td>He is harsh <span class="underline">but</span> fair.</td>
+	</tr>
+	<tr>
+		<td>viii.</td>
+		<td>Subordinator</td>
+		<td>He said <span class="underline">that</span> he loved me.</td>
+		<td colspan="2"><span class="underline">Because</span> of him, I owe the bank twelve-million dollars!</td>
+	</tr>
+	<tr>
+		<td>ix.</td>
+		<td>Interjections</td>
+		<td><span class="underline">Eureka</span>!</td>
+		<td><span class="underline">Excellent</span>.</td>
+		<td><span class="underline">Ah</span>, John, you are just in time.</td>
+	</tr>
+</table>
+
+As with any task of categorising, many different grammarians use different categories. [[Some would even claim that there are upwards of twenty-seven lexeme categories!]] There are some differences here from the traditional approach, which will be explained in the individual entries below.
+
+Note that aside from the last three [[There are of course no coordinator or subordinator phrases.]], each respective lexeme category functions as the **head** of its respective phrase: e.g., a noun functions as the head of a noun phrase.
+
+The largest and most interesting of these categories are the nouns and the verbs. They are the core of English and what the other words all dance around.
+
+### Nouns
+
+Nouns are the "things" of our language. They represent physical objects (*book*, *handle*, *mouse*) but also theoretical concepts (*love*, *abyss*, "manliness").
+
+Sometimes this category is split into "proper nouns" (*Australia*, *Zachary*), "pronouns" (*he*, *you*, *us*), and "common nouns" (*dog*, *cat*), despite there being little syntactical difference between the three. You might find a slew of grammar references constantly talking about "nouns or pronouns" as if there were many cases that applied to one and not the other. For both our sakes, I think we can agree that just "nouns" will do.
+
+Such subcategories are of course there, since they do have different meaning. A pronoun is a lexeme which is used in place of another noun, and a proper noun is a noun of a place or person. There's just nothing syntactically interesting about them.
+
+Most nouns may be **inflected** to indicate a plural, achieved by suffixing an "s" to the lexeme (though you'll need an unabridged dictionary to get all of the exceptions).
+
+### Verbs
+
+Verbs are the doing words of the language.
+
+### Determinatives
+
+However, the words *some*, *many*, *two*, etc. function much more similarly to *the* and *a* than they do adjectives:
+
+* A dog barked.
+* Some dogs barked.
+* Red dogs barked.
+
+While all of the above are grammatically fine, *Red dogs barked.* has a sharp semantic difference to the other examples.
+
+### Interjections
+
+Interjections are, simply put, lexemes that don't fall within the purview of any other category. They are generally isolated by acting as their own sentences, or by being offset by commas or dashes.
+
+- "*Excellent*. Now we may begin."
+- "Half a pence and -- *oh*, Julia, I didn't see you there." 
+
+Given that by definition interjections are outside the realm of grammar, there's nothing particularly interesting to say about them.
 
 [% END %]
