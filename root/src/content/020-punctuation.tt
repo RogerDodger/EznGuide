@@ -237,6 +237,6 @@ Miscellaneous <span class="hidden">punctuation</span> errors
 
 8. <span class="good">Rainbow-maned pegasus. Dirt-covered carpet. Obstacle-ridden forest.</span> When two words are working together to describe a noun (“pegasus”, “carpet”, or “forest”), they should be joined together with a hyphen. Don’t use a hyphen if the first word is an adverb, though, because the adverb is describing the adjective, not forming a compound with it. “<span class="good">It was a smoothly run election.</span>”
 
-9. Don’t use two single quotation marks (<code class="bad">''</code>) in place of a double quotation mark (<code class="good">"</code>).
+9. Don’t use two single quotation marks (<code class="bad">&apos;&apos;</code>) in place of a double quotation mark (<code class="good">&quot;</code>).
 
 [% END %]

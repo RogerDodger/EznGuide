@@ -10,7 +10,7 @@ Task-EznGuide dummy module.
 
 - `EznGuide$ cd Task-EznGuide`
 - `EznGuide/Task-EznGuide$ cpan .`
-- `EznGuide/Task-EznGuide$ ./Build realclean`
+- `EznGuide/Task-EznGuide$ make realclean`
 
 Copy the config file and edit it appropriately.
 
@@ -18,7 +18,7 @@ Copy the config file and edit it appropriately.
 
 Finally, build the site by running the build scipt.
 
-- `EznGuide$ perl build.pl`
+- `EznGuide$ perl eznguide_build.pl`
 
 ##Note
 

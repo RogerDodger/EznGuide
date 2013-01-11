@@ -252,7 +252,7 @@ ul.footnotes li {
   
 #splash {
 	font-size: 8em;
-	font-family: "Arial Black";
+	font-family: "Arial Black", sans-serif;
 	color: #f1c232;
 	text-shadow: 1px 1px 1px #000;
 	text-align: center;

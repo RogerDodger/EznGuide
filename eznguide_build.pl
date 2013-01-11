@@ -7,6 +7,12 @@ use 5.014;
 use Task::EznGuide v2012.11.22;
 
 use FindBin '$Bin';
+
+# The Text::SmartyPants module on CPAN is packed up inside of an enormous distribution that takes
+# ages to install (like, an hour on my 3.33GHz i5), so we'll just include the module instead
+use lib "$Bin/lib";
+use Text::SmartyPants; 
+
 use YAML;
 use File::Find;
 use File::Copy 'cp';
@@ -36,22 +42,38 @@ sub simple_uri {
 	return $str;
 }
 
-sub html_guts {
-	my($e, $ignore) = @_;
+{
+	package HTML::Element;
 
-	return join "", map {
-		if(ref $_) {
-			if($_->tag ~~ $ignore) {
-				html_guts($_, $ignore);
+	# Output the tag contents, ignoring optional nested elements by element name
+	sub guts {
+		my($e, $opt) = @_;
+
+		$opt->{ignore} //= [];
+
+		return join "", map {
+			if(ref $_) {
+				# isa HTML::Element
+				if($_->tag ~~ $opt->{ignore}) {
+					# If ignoring, don't wrap with the tag
+					$_->guts($opt);
+				}
+				else {
+					# Otherwise, wrap guts in tag + attributes
+					my %attr = $_->all_external_attr;
+					sprintf "<%s%s>%s</%s>", 
+						$_->tag,
+						( join "", map { " $_=\"$attr{$_}\"" } keys %attr ),
+						$_->guts($opt), 
+						$_->tag;
+				}
 			}
 			else {
-				sprintf "<%s>%s</%s>", $_->tag, html_guts($_, $ignore), $_->tag;
+				$_;
 			}
-		}
-		else {
-			$_
-		}
-	} $e->content_list;
+		} $e->content_list;
+	}
+
 }
 
 chdir($Bin);
@@ -105,7 +127,14 @@ my $tt = Template->new({
 			my $fn = shift;
 			return sprintf '%s?v=%s', $fn, stat($fn)->mtime;
 		},
-		markdown => Text::Markdown->new->can('markdown'),
+		markdown => sub {
+			my $text = shift;
+
+			$text = Text::Markdown->new->markdown($text);
+			$text = Text::SmartyPants::process($text, 2); # Educate -- to en, and --- to em dashes
+
+			return $text;
+		},
 	}
 });
 
@@ -212,7 +241,7 @@ for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 		push @headers, { 
 			class    => $e->tag,
 			href     => simple_uri( $e->as_text ),
-			contents => html_guts( $e, [ 'a' ] ),
+			contents => $e->guts({ ignore => [ 'a' ] }),
 		}; 
 
 		#Prepend an anchor to the header
