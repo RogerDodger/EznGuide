@@ -43,7 +43,7 @@ This section marks a narrowing of that scope.  Below is a set of character and p
 [% INCLUDE table
 	heading = 'Cutie mark crusaders'
 	td = [
-		'Apple Bloom (or Applebloom [[Because "Applejack".]])',
+		'Apple Bloom',
 		'Sweetie Belle',
 		'Scootaloo',
 	]
