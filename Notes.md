@@ -45,7 +45,7 @@ Section on prepositions will probably be moved/superseded by the grammar section
 
 ### 130-appendix-b.tt
 
-* "Showing Vs Telling" link removed since it's broken
+* "Showing vs Telling" link removed since it's broken
 
 ### eznguide.css
 
