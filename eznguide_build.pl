@@ -4,7 +4,7 @@ use utf8;
 use warnings;
 use strict;
 use 5.014;
-use Task::EznGuide v2012.11.22;
+use Task::EznGuide v2013.02.18;
 
 use FindBin '$Bin';
 
@@ -17,6 +17,7 @@ use YAML;
 use File::Find;
 use File::Copy 'cp';
 use File::stat;
+use File::Spec::Functions;
 use Digest::MD5::File 'file_md5_hex';
 use Template;
 use Template::Stash;
@@ -82,26 +83,26 @@ my ($config) = YAML::LoadFile( "config.yml" )
 	or die "Config file not found. Have you created it yet?";	
 die "$config->{path} is not a directory" unless -d $config->{path};
 
-my $builddir = "$config->{path}/www-eznguide";
+my $builddir = $config->{path};
 
-unless( -e "$builddir/favicon.ico" ) {
-	say "create $builddir/favicon.ico";
-	cp("$Bin/root/favicon.ico", "$builddir/favicon.ico");
+unless( -e (my $fn = catfile($builddir, "favicon.ico")) ) {
+	say "create $fn";
+	cp catfile($Bin, 'root', 'favicon.ico'), $fn;
 }
 
 # Move static files into the builddir
-chdir('root/static');
+chdir( catdir('root', 'static') );
 find( 
 	sub { 
 		if(-d) {
-			my $dir = "$builddir/" . $File::Find::name;
+			my $dir = catdir($builddir, $File::Find::name);
 			unless( -d $dir ) {
 				mkdir $dir;
 				say "create $dir";
 			}
 		}
 		else {
-			my $fn = "$builddir/" . $File::Find::name;
+			my $fn = catfile($builddir, $File::Find::name);
 			if( !-e $fn || file_md5_hex($fn) ne file_md5_hex($_) ) {
 				say "unlink $fn" if -e $fn;
 				say "create $fn";
@@ -114,7 +115,7 @@ find(
 
 my $stash = Template::Stash->new($config);
 my $tt = Template->new({
-	INCLUDE_PATH => "$Bin/root/src",
+	INCLUDE_PATH => catfile($Bin, 'root', 'src'),
 	STASH => $stash,
 	FILTERS => {
 		time => sub {
@@ -139,13 +140,13 @@ my $tt = Template->new({
 });
 
 #Process templates
-chdir('../src');
+chdir( catdir('..', 'src') );
 my $content = '';
-for my $fn ( glob "content/*" ) {
+for my $fn ( glob catfile('content', '*') ) {
 	say "processing $fn";
 	$tt->process($fn, undef, \$content);
 }
-chdir('../static');
+chdir( catdir('..', 'static') );
 
 say "processing footnotes";
 my @footnotes;
@@ -257,7 +258,7 @@ $stash->set('headers', \@headers);
 $stash->set('content', $content);
 
 #Process wrapper
-my $fn = "$builddir/index.html";
+my $fn = catfile($builddir, 'index.html');
 say "unlink $fn" if -e $fn;
 say "create $fn";
 $tt->process("wrapper.tt", undef, $fn);
@@ -266,7 +267,7 @@ if( $zip ) {
 	#Compress site for ease of downloading
 	my $az = Archive::Zip->new();
 	$az->addTree($builddir, '', sub { !/\.zip$/ });
-	$fn = "$builddir/site.zip";
+	$fn = catfile($builddir, 'site.zip');
 	say "unlink $fn" if -e "$fn";
 	say "create $fn";
 	$az->writeToFileNamed("$fn");
