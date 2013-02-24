@@ -7,44 +7,31 @@ Grammar
 
 _[This section is a work in progress.]_
 
-Grammar is rather difficult to explain simply. In many ways, it's impossible to make a complete and coherent description of any natural language. It's even worse with English, which in just the last hundred years has had enormous changes in the way it's spoken. English texts on grammar from the early half the 1900's are already filled with antiquated if not entirely incorrect information.
+Grammar is rather difficult to explain simply. In many ways, it's impossible to make a complete and coherent description of any natural language. It's even worse with English, which in just the last hundred years has had enormous changes in the way it's spoken. English texts on grammar from the early half the 1900's are already filled with antiquated if not entirely incorrect information. [[Historically, some hypothesise this as being because Latin was considered more "high class" in the day, as opposed to the Germanic roots of the proletariat's speech. As a result, the prescriptivist texts from those days spoke dismissively of the Germanic-inspired naunces of our language that were not at all present in Latin grammar (such as ending sentences in propositions), insofar as to call them wrong.]]
 
 But hope is not lost. Most of us have the very nice advantage of having practised English grammar for our entire lives. In terms of knowledge, there is very little between instinctively knowing that something is or is not grammatical and formally understanding *why* it is so. The hardest part is understanding the jargon. There's a fair bit of it, and not everyone can agree on the definitions of even some of the most basic building blocks of English grammar.
 
 For this reason, the first (and perhaps subsequent) appearance of any jargon used in this section will be indicated with **boldface**, and any such word is guaranteed to have an entry in the glossary. That way we're working with a common language.
 
-I don't profess to be any expert in grammar. I'm more a computer science guy (which, despite what you might think, isn't all too far away from the subject). Most of what I'll be explaining here will be my own verbalisation of Rodney Huddleston and Geoffrey K. Pullum's [A Student's Introduction to English Grammar](http://www.amazon.com/Students-Introduction-English-Grammar/dp/0521612888). In fact, if you have the means to, I'd suggest that you stop reading right here and simply read that instead. If not, I guess you're stuck with me.
+I don't profess to be any expert in grammar. I'm more a computer science guy (which, despite what you might think, isn't all too far away from the subject). Most of what I'll be explaining here will be my own verbalisation of Rodney Huddleston and Geoffrey K. Pullum's *[A Student's Introduction to English Grammar](http://www.amazon.com/Students-Introduction-English-Grammar/dp/0521612888)*. In fact, if you have the means to, I'd suggest that you stop reading right here and simply read that instead. If not, I guess you're stuck with me.
 
 On that note, the target audience for this section is college-aged students with English as their first language. [[If my understanding of the FiM fandom's demographic is right, that'll be pretty on-point for most of you.]] Most of what I say will be a descriptivist approach to grammar. That is, I'll present examples of typical usage and then formalise that into a (somewhat) logical description of English. If English isn't your first language, such an approach might not make so much sense.
 
 With all that said, let's begin.
-
-Standard English
-----------------
-
-English is the most widely spoken language in the world. [[Some sources cite Mandarin as having more speakers, but [modern estimates](http://www.britishcouncil.org/learning-faq-the-english-language.htm) tend to favour English. More to the point, it's almost universally agreed that English has the most non-native speakers, i.e., is the most widespread.]] With so many speakers from so many different cultures and backgrounds, it's inevitable that not all of them are speaking the same language as each other. A person in down town Brooklyn would surely not speak English the same way a person in Thailand does.
-
-More to the point, English encourages these variants. We have stolen words from French ("adieu", "per se", "bourgeois"), Italian ("piano", "spaghetti", "tempo"), German ("lager", "hamburger", "frankfurter"), Spanish ("cocoa", "macho", "tango"), Chinese ("shogun", "tofu", "zen"), Japanese ("karaoke", "karate", "samurai"), Russian ("gulag", "vodka"), and a whole host of others. I doubt there is a prosperous language alive today that we haven't poached for our vocabulary. [Unlike some languages](http://en.wikipedia.org/wiki/List_of_language_regulators), there is no central authority on English. [[In fact, in some countries, the language academies can act on legal grounds to keep "impure" language off of mass media and out of publication. Imagine all the trouble fantasy writers have...]] If it works, we'll take it. There are even some cultures that speak a mongrel of English and a more native language, producing an entirely new language.
-
-And [English has its origins in being a complete mongrel](http://knell63.hubpages.com/hub/English-the-Mungrel-language). What with how much fun everyone was having invading England back in the day, every war brought new words to the local lexicon. When Shakespeare came along and revolutionised the language, half of the words in his plays didn't even exist in English yet. [[And some of them still don't, depending on what your definition of "word" is. A number of words in his plays have indiscernible meaning or origin.]]
-
-To simply describe "English" would be a task of impossible grandeur, because there are just that many dialects. Instead our goal is to describe "Standard English". Put simply, standard English is the dialect which in theory the largest number of English speakers speak. Usage contrary to this is considered "non-standard" English -- not necessarily wrong, but not the kind of language you would use to address a wide audience.
-
-There are a lot of definitions to go through, and a lot of it is going to be piggybacking on other definitions. So if you encounter a boldfaced word and it isn't quite explained yet, just bear with me (or flick over to the glossary).
 
 Sentences, clauses, and phrases
 -------------------
 
 A sentence is made of one or more **clauses**. In the grammatical sense, sentences don't have much interesting about them. You can join clauses together to form larger sentences. That's it.
 
-Clauses, on the other hand, are a very fickle beast. There are enormous tomes spent trying to define them, yet grammarians can never quite agree on a definition of what they are.
+Clauses, on the other hand, are very interesting. There are enormous tomes spent trying to define them, yet grammarians can never quite agree on an exact definition of what they are.
 
 The simplest kind of clause consists of a **predicate** and a **subject**:
 
-* The devil &cdot; is coming.
-* I &cdot; am Sam.
+* The devil &middot; is coming.
+* I &middot; am Sam.
 
-A **predicate** has a verb phase as its head, and its associated **dependents** for the rest of it.
+A **predicate** has a verb phrase as its head, and its associated **dependents** for the rest of it.
 
 Words and lexemes
 -----------------
@@ -62,7 +49,7 @@ Lexeme categories
 
 Generally speaking, lexemes can be categorised into eight different categories:
 
-<table class="plain" markdown="1">
+<table class="plain">
 	<tr>
 		<td>i.</td>
 		<td>Nouns</td>
