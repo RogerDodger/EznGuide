@@ -134,6 +134,12 @@ However, there’s no reason not to use dashes instead!
 
 > <p class="good">“Derpy, muffins don’t” – Carrot Top put a hoof to her forehead – “grow into muffin trees when you bury them in the ground.”</p>
 
+A quick note: there's a difference between putting the dashes outside of the quotation marks and putting them inside the quotation marks.
+
+> <p class="good">“Derpy, muffins don’t –” Carrot Top put a hoof to her forehead “– grow into muffin trees when you bury them in the ground.”</p>
+
+In the first example, the action is performed concurrently with the dialogue, and in the second example, the action interrupts the dialogue, which then continues once the action is complete.
+
 ### Miscellaneous <span class="hidden">dialogue punctuation</span>
 
 Something interesting I learnt about dialogue punctuation while writing _Long Distance_ is that when writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
