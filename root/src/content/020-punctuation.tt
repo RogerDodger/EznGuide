@@ -142,16 +142,13 @@ In the first example, the action is performed concurrently with the dialogue, an
 
 ### Miscellaneous <span class="hidden">dialogue punctuation</span>
 
-Something interesting I learnt about dialogue punctuation while writing _Long Distance_ is that when writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
+When writing multi-paragraph dialogue, each new paragraph should start with an open quotation mark, like so:
 
-> <p class="good">“The glyph upon my flank describes a very delicate mission <br> 
-> It compels me to prevent international peace attrition.</p>
+> <p class="good">“New writers often have a bad habit of clumping all of their text into one or two paragraphs, likely because they don’t entirely understand the purpose of paragraphing, and they think it makes their writing look really long and impressive or something.</p>
 >
-> <p class="good">“Or, to put it in a fashion more clear-spoken and plain<br>
-> Means my job is full of pony-zebra friendships to maintain.</p>
+> <p class="good">“I will be the first to admit that I probably use too many paragraphs, but it’s better to do that than to use too few. Paragraphs enhance readability, and if your work’s not readable, no-one’s going to read it!</p>
 >
-> <p class="good">“By travelling deep into pony country and living among you<br>
-> I hope to understand, and discover what is true.”</p>
+> <p class="good">“Paragraphs don’t have to be a certain minimum or maximum length. A single sentence can be its own paragraph. A paragraph can also, technically, be as many sentences long as you want, but you’ll usually find that it’s time to start a new one when you get past seven or eight.”</p>
 
 It makes my “programmer’s incomplete parenthesis” sense tingle, but that’s the way it’s supposed to be done. I guess the open quotations serve as a reminder to the reader that the dialogue from the previous paragraph is still going on.
 
@@ -220,7 +217,7 @@ The standard way of representing the ellipsis in electronic media, where we gene
 Parentheticals
 --------------
 
-There are three types of parentheticals: the type surrounded by commas, the type surrounded by dashes, and the type surrounded by parentheses. The first type is the most common; the second type is best used for abrupt, very quick asides – like this one here – and the third type is barely ever used in fiction (with good reason: [the type of asides usually put in brackets can break the reader’s immersion](http://www.dailywritingtips.com/15-purposes-for-parentheses/)).
+There are three types of parentheticals: the type surrounded by commas, the type surrounded by dashes, and the type surrounded by parentheses. The first type is the most common; the second type is best used for abrupt, very quick asides – like this one here – and the third type is less common in fiction than the other two (with good reason: [the type of asides usually put in brackets can break the reader’s immersion](http://www.dailywritingtips.com/15-purposes-for-parentheses/)).
 
 Miscellaneous <span class="hidden">punctuation</span> errors
 ------------------------------------------------------------
