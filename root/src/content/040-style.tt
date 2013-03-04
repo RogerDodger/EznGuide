@@ -284,9 +284,9 @@ Proper formatting is literally the difference between having an indecipherable m
 
 ### Sentence spacing
 
-A single, standard space should be used to separate sentences.
+Generally speaking, the modern convention is to use a single, standard space between sentences. The use of double spaces is preferred by [some others](http://www.heracliteanriver.com/?p=324), and it's really a [touchy issue](http://www.slate.com/articles/technology/technology/2011/01/space_invaders.html) in some circles. Personally, I'm a one-spacer, but the more I learn about this issue, the less I want to come down on saying that one side is wrong and the other is right. So take a look at how the different options make text look and make up your own mind.
 
-Do not use two spaces. [This practice was introduced as a workaround for when the fixed-width fonts of mechanical typewriters made sentences blend together](http://www.slate.com/articles/technology/technology/2011/01/space_invaders.html), and it is no longer necessary in this modern world of variable-width fonts. Please use find-and-replace to substitute every instance of <span style="white-space: pre">“  ”</span> with “ ”. Or, if you really like that extra spacing, consider replacing double spaces with single [en spaces](http://en.wikipedia.org/wiki/Space_(punctuation)#Spaces_in_Unicode) (“&ensp;”) to prevent the second space from going to the next line on its own and ruining your margin.
+Yet another choice, if you're unsatisfied with both double and single spacing, is typing with double spaces and then replacing them with single [en spaces](http://en.wikipedia.org/wiki/Space_(punctuation)#Spaces_in_Unicode) (“&ensp;”). I personally consider this the best of both worlds, as it avoids the rare occasions where having two spaces in a row will ruin your margin.
 
 ### Paragraph spacing
 
@@ -340,7 +340,7 @@ There are two kinds of quotation marks:
 
 They are used mainly for dialogue (<span class="good">“Oh, um, hello,” said Fluttershy</span>) and direct quotations (<span class="good">Sources describe the phenomenon as “totally rad”</span>), but can also be used to indicate irony or sarcasm (<span class="good">You’re my “best friend”!</span>).
 
-Opinions are divided as to when single and double quotation marks should be used. In America, it’s common practice to only use them when the text you’re enclosing them with is already inside double quotation marks (<span class="good">“You’re my ‘best friend’!” I said</span>). Other authorities in Britain and Australia like to do the exact opposite (<span class="good">‘You’re my “best friend”!’ I said</span>).
+Opinions are divided as to when single and double quotation marks should be used. In America, it’s common practice to only use single quotation marks when the text you’re enclosing them with is already inside double quotation marks (<span class="good">“You’re my ‘best friend’!” I said</span>). Other authorities in Britain and Australia like to do the exact opposite (<span class="good">‘You’re my “best friend”!’ I said</span>).
 
 Still, others prefer to reserve double quotes for dialogue and quotations and use single quotes for everything else. [[More specifically, this is what my English teachers always told me to do, but I haven’t found any online references that support it.]] And then there’s the fanfiction convention of using single quotation marks for direct thoughts (which I’ve found is a great way to confuse your reader horribly and personally discourage).
 
