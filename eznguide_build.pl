@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 use utf8;
-
-use warnings;
-use strict;
 use 5.014;
-use Task::EznGuide v2012.11.22;
+use warnings;
 
 use FindBin '$Bin';
 use YAML;
