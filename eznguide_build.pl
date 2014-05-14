@@ -37,38 +37,35 @@ sub simple_uri {
 	return $str;
 }
 
-{
-	package HTML::Element;
+# Monkey patch new method to elements
+#
+# Output the tag contents, ignoring optional nested elements by element name
+sub HTML::Element::guts {
+	my($e, $opt) = @_;
 
-	# Output the tag contents, ignoring optional nested elements by element name
-	sub guts {
-		my($e, $opt) = @_;
+	$opt->{ignore} //= [];
 
-		$opt->{ignore} //= [];
-
-		return join "", map {
-			if(ref $_) {
-				# isa HTML::Element
-				if($_->tag ~~ $opt->{ignore}) {
-					# If ignoring, don't wrap with the tag
-					$_->guts($opt);
-				}
-				else {
-					# Otherwise, wrap guts in tag + attributes
-					my %attr = $_->all_external_attr;
-					sprintf "<%s%s>%s</%s>",
-						$_->tag,
-						( join "", map { " $_=\"$attr{$_}\"" } keys %attr ),
-						$_->guts($opt),
-						$_->tag;
-				}
+	return join "", map {
+		if(ref $_) {
+			# isa HTML::Element
+			if($_->tag ~~ $opt->{ignore}) {
+				# If ignoring, don't wrap with the tag
+				$_->guts($opt);
 			}
 			else {
-				$_;
+				# Otherwise, wrap guts in tag + attributes
+				my %attr = $_->all_external_attr;
+				sprintf "<%s%s>%s</%s>",
+					$_->tag,
+					( join "", map { " $_=\"$attr{$_}\"" } keys %attr ),
+					$_->guts($opt),
+					$_->tag;
 			}
-		} $e->content_list;
-	}
-
+		}
+		else {
+			$_;
+		}
+	} $e->content_list;
 }
 
 chdir($Bin);
