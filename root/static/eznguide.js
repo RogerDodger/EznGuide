@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+(function() {
 	var zeropad = function(s, n) {
 		s += "";
 		while (s.length < n) {
@@ -7,8 +7,10 @@ jQuery(document).ready(function($) {
 		return s;
 	};
 
-	$('time').each(function() {
-		var dt = new Date( $(this).attr('datetime') );
+	var elements = document.querySelectorAll('time');
+	for (var i = 0; i < elements.length; i++) {
+		var e = elements[i];
+		var dt = new Date(e.getAttribute('datetime'));
 
 		var days = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" ];
 		var months = [
@@ -16,8 +18,8 @@ jQuery(document).ready(function($) {
 			"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 		];
 
-		$(this).attr('title', $(this).text());
-		$(this).text(
+		e.title = e.innerHTML;
+		e.innerHTML =
 			days[dt.getDay()] + ", " +
 
 			zeropad(dt.getDate(), 2) + " " +
@@ -27,16 +29,6 @@ jQuery(document).ready(function($) {
 			zeropad(dt.getHours(), 2) + ":" +
 			zeropad(dt.getMinutes(), 2) + ":" +
 			zeropad(dt.getSeconds(), 2)
-		);
-
-	});
-
-	$('a')
-		.filter(function(i) {
-			return !/^#/.test( $(this).attr('href') );
-		})
-		.attr({
-			title: 'Open link in new tab',
-			target: '_blank',
-		});
-});
+		;
+	}
+})();
