@@ -4,11 +4,7 @@ use 5.014;
 use strict;
 
 my @dependencies = qw(
-	FindBin
 	YAML
-	File::Find
-	File::Copy
-	File::stat
 	Digest::MD5::File
 	Template
 	Template::Stash
@@ -16,7 +12,6 @@ my @dependencies = qw(
 	Text::Markdown
 	Text::Typography
 	HTML::TreeBuilder
-	Getopt::Long
 );
 
 if (eval { require App::cpanminus; 1; }) {
