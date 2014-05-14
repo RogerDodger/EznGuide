@@ -7,7 +7,7 @@ Grammar
 
 _[This section is a work in progress.]_
 
-Grammar is rather difficult to explain simply. In many ways, it's impossible to make a complete and coherent description of any natural language. It's even worse with English, which in just the last hundred years has had enormous changes in the way it's spoken. English texts on grammar from the early half the 1900's are already filled with antiquated if not entirely incorrect information. [[Historically, some hypothesise this as being because Latin was considered more "high class" in the day, as opposed to the Germanic roots of the proletariat's speech. As a result, the prescriptivist texts from those days spoke dismissively of the Germanic-inspired naunces of our language that were not at all present in Latin grammar (such as ending sentences in propositions), insofar as to call them wrong.]]
+Grammar is rather difficult to explain simply. In many ways, it's impossible to make a complete and coherent description of any natural language. It's even worse with English, which in just the last hundred years has had enormous changes in the way it's spoken. English texts on grammar from the early half the 1900's are already filled with antiquated information. [[Historically, some hypothesise this as being because Latin was considered more "high class" in the day, as opposed to the Germanic roots of the proletariat's speech. As a result, the prescriptivist texts from those days spoke dismissively of the Germanic-inspired naunces of our language that were not at all present in Latin grammar (such as ending sentences in propositions), insofar as to call them wrong.]]
 
 But hope is not lost. Most of us have the very nice advantage of having practised English grammar for our entire lives. In terms of knowledge, there is very little between instinctively knowing that something is or is not grammatical and formally understanding *why* it is so. The hardest part is understanding the jargon. There's a fair bit of it, and not everyone can agree on the definitions of even some of the most basic building blocks of English grammar.
 
@@ -15,23 +15,47 @@ For this reason, the first (and perhaps subsequent) appearance of any jargon use
 
 I don't profess to be any expert in grammar. I'm more a computer science guy (which, despite what you might think, isn't all too far away from the subject). Most of what I'll be explaining here will be my own verbalisation of Rodney Huddleston and Geoffrey K. Pullum's *[A Student's Introduction to English Grammar](http://www.amazon.com/Students-Introduction-English-Grammar/dp/0521612888)*. In fact, if you have the means to, I'd suggest that you stop reading right here and simply read that instead. If not, I guess you're stuck with me.
 
-On that note, the target audience for this section is college-aged students with English as their first language. [[If my understanding of the FiM fandom's demographic is right, that'll be pretty on-point for most of you.]] Most of what I say will be a descriptivist approach to grammar. That is, I'll present examples of typical usage and then formalise that into a (somewhat) logical description of English. If English isn't your first language, such an approach might not make so much sense.
+On that note, the target audience for this section is middle-aged people with English as their first language. [[If my understanding of the FiM fandom's demographic is right, that'll be pretty on-point for most of you.]] Most of what I say will be a descriptivist approach to grammar. That is, I'll present examples of typical usage and then formalise that into a (somewhat) logical description of English. If English isn't your first language, such an approach might not make so much sense.
 
 With all that said, let's begin.
 
 Sentences, clauses, and phrases
+-------------------------------
+
+The simplest sentence contains but two things: a **noun** and a **verb**:
+
+- John runs.
+- It rains.
+- Pigs diefy. 
+
+If you are ever having trouble with deconstructing sentences, fall back to that simple maxim. When everything is filtered down, our sentences merely expresses *things* doing *stuff*. If there's more or fewer than one *thing* doing *stuff* in a sentence, then that's a good indication something might be wrong with your sentence.
+
+To now get more techinical on you, a sentence is made of one or more **clauses**. In the grammatical sense, sentences don't have much interesting about them. Clauses can be joined together to form larger sentences, which is why the distinction between the two is necessary. But when talking about grammar, we focus more on clauses than sentences, as they are more specific.
+
+A canonical clause consists of a **subject** and a **predicate**:
+
+* [The devil]{subject} &middot; [is coming]{predicate}.
+* [I]{subject} &middot; [am Sam]{predicate}.
+
+
+
+Syntax vs semantics
 -------------------
 
-A sentence is made of one or more **clauses**. In the grammatical sense, sentences don't have much interesting about them. You can join clauses together to form larger sentences. That's it.
+Sometimes incorrectly used interchangeably, *syntax* and *semantics* mean similar but distinct things. 
 
-Clauses, on the other hand, are very interesting. There are enormous tomes spent trying to define them, yet grammarians can never quite agree on an exact definition of what they are.
+- *Syntax* refers to "the grammatical arrangement of words in sentences"
+- *Semantics* refers to "the meaning of a string in some language"
 
-The simplest kind of clause consists of a **predicate** and a **subject**:
+The distinction can be demonstrated with three sentences:
 
-* The devil &middot; is coming.
-* I &middot; am Sam.
+1. "I kicked a ball."
+2. "A ball I kicked."
+3. "I kicked a cat."
 
-A **predicate** has a verb phrase as its head, and its associated **dependents** for the rest of it.
+(1) and (2) mean the same thing. They share the same semantics. But the words are arranged differently; they have a different syntax. (1) and (3), however, have the same syntax, but different semantics. One conveys a completely mundane act perfect for grammatical examples, and the other unconditionally paints the actor as an horrific evil.
+
+When talking about grammar, syntax is almost always more interesting, because whether you kick a ball, a cat, or an orbital space satellite, it's all the same to me.
 
 Words and lexemes
 -----------------
@@ -40,9 +64,9 @@ The term "word" is commonly used in two different senses, as the following sente
 
 > As the lead wolf leaps to its prey, so too do the other wolves leap.
 
-The terms *wolf* and *wolves* both refer to the same animal. Likewise, *leap* and *leaps* refer to the same action. Generally speaking, most people will consider each separate words.
+The terms *wolf* and *wolves* both refer to the same animal. Likewise, *leap* and *leaps* refer to the same action. But are they different words?
 
-However, in discussing grammar, the difference between *wolf* and *wolves* is a matter of **inflection**. They are still fundamentally the same term, referring to the same thing, but serving a different syntactical purpose. (One is singular, while the other is plural.) For the sake of this guide, the term *lexeme* will refer to the base word from which others are inflected: *wolves* is an **inflection** of the **lexeme** *wolf*.
+In discussing grammar, the difference between *wolf* and *wolves* is a matter of **inflection**. They are still fundamentally the same term but serve a different purpose. (One is singular, while the other is plural.) For the sake of this guide, the term *lexeme* will refer to the base word from which others are inflected: *wolves* is an **inflection** of the **lexeme** *wolf*.
 
 Lexeme categories
 --------------
@@ -120,7 +144,7 @@ Note that aside from the last three [[There are of course no coordinator or subo
 
 The largest and most interesting of these categories are the nouns and the verbs. They are the core of English and what the other words all dance around.
 
-### Nouns
+### Nouns ###
 
 Nouns are the "things" of our language. They represent physical objects (*book*, *handle*, *mouse*) but also theoretical concepts (*love*, *abyss*, "manliness").
 
