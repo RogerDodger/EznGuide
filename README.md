@@ -1,26 +1,17 @@
-EznGuide
-========
-
-Webpage builder for Ezn's writing guide
+Static site generator for Ezn's writing guide
 
 ## Installation ##
 
-First off, install all missing dependencies from CPAN with the included
-Task-EznGuide dummy module.
+    EznGuide$ perl Makefile.PL
+    EznGuide$ cp config-template.yml config.yml
 
-- `EznGuide$ cd Task-EznGuide`
-- `EznGuide/Task-EznGuide$ cpan .`
-- `EznGuide/Task-EznGuide$ make realclean`
+## Usage ##
 
-Copy the config file and edit it appropriately.
+Edit the configuration as appropriate, then run:
 
-- `EznGuide$ cp _config.yml config.yml`
-
-Finally, build the site by running the build scipt.
-
-- `EznGuide$ perl eznguide_build.pl`
+    EznGuide$ ./eznguide_build.pl
 
 ## Note ##
 
-All the site content is in `root/src`. Templates are loaded in asciibetical 
+All the site content is in `root/src`. Templates are loaded in asciibetical
 order, so preceding the templates with a number creates a desired order.
