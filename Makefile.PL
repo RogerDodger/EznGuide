@@ -2,9 +2,6 @@
 
 use 5.014;
 use strict;
-use Getopt::Long;
-
-GetOptions(\my %opt, 'devel|development');
 
 my @dependencies = qw(
 	FindBin
@@ -19,7 +16,6 @@ my @dependencies = qw(
 	Text::Markdown
 	Text::Typography
 	HTML::TreeBuilder
-	Archive::Zip
 	Getopt::Long
 );
 

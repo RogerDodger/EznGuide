@@ -18,10 +18,6 @@ use Text::Markdown;
 use Text::Typography qw/typography/;
 use HTML::TreeBuilder;
 use Archive::Zip;
-use Getopt::Long;
-
-my $zip = 1;
-GetOptions( 'zip!' => \$zip );
 
 sub simple_uri {
 	my $str = join "-", @_;
@@ -67,7 +63,7 @@ sub HTML::Element::guts {
 	} $e->content_list;
 }
 
-chdir($Bin);
+chdir catdir($Bin, '..');
 
 my ($config) = YAML::LoadFile( "config.yml" )
 	or die "Config file not found. Have you created it yet?";
@@ -75,11 +71,6 @@ my ($config) = YAML::LoadFile( "config.yml" )
 mkdir $config->{path} unless -d $config->{path};
 
 my $builddir = $config->{path};
-
-unless( -e (my $fn = catfile($builddir, "favicon.ico")) ) {
-	say "create $fn";
-	cp catfile($Bin, 'root', 'favicon.ico'), $fn;
-}
 
 # Move static files into the builddir
 chdir catdir('root', 'static');
@@ -99,7 +90,7 @@ find(
 
 my $stash = Template::Stash->new($config);
 my $tt = Template->new({
-	INCLUDE_PATH => catfile($Bin, 'root', 'src'),
+	INCLUDE_PATH => catfile($Bin, '..', 'root', 'src'),
 	STASH => $stash,
 	FILTERS => {
 		time => sub {
@@ -126,13 +117,13 @@ my $tt = Template->new({
 });
 
 #Process templates
-chdir( catdir('..', 'src') );
+chdir catdir('..', 'src');
 my $content = '';
 for my $fn ( glob catfile('content', '*') ) {
 	say "processing $fn";
 	$tt->process($fn, undef, \$content);
 }
-chdir( catdir('..', 'static') );
+chdir catdir('..', 'static');
 
 say "processing footnotes";
 my @footnotes;
@@ -248,15 +239,3 @@ my $fn = catfile($builddir, 'index.html');
 say "unlink $fn" if -e $fn;
 say "create $fn";
 $tt->process("wrapper.tt", undef, $fn);
-
-if( $zip ) {
-	#Compress site for ease of downloading
-	my $az = Archive::Zip->new();
-	$az->addTree($builddir, '', sub { !/\.zip$/ });
-	$fn = catfile($builddir, 'site.zip');
-	say "unlink $fn" if -e "$fn";
-	say "create $fn";
-	$az->writeToFileNamed("$fn");
-}
-
-__END__

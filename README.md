@@ -9,7 +9,7 @@ Static site generator for Ezn's writing guide
 
 Edit the configuration as appropriate, then run:
 
-    EznGuide$ ./eznguide_build.pl
+    EznGuide$ script/build.pl
 
 ## Note ##
 
