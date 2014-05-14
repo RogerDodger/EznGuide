@@ -80,23 +80,16 @@ unless( -e (my $fn = catfile($builddir, "favicon.ico")) ) {
 }
 
 # Move static files into the builddir
-chdir( catdir('root', 'static') );
+chdir catdir('root', 'static');
 find(
 	sub {
-		if(-d) {
-			my $dir = catdir($builddir, $File::Find::name);
-			unless( -d $dir ) {
-				mkdir $dir;
-				say "create $dir";
-			}
-		}
-		else {
-			my $fn = catfile($builddir, $File::Find::name);
-			if( !-e $fn || file_md5_hex($fn) ne file_md5_hex($_) ) {
-				say "unlink $fn" if -e $fn;
-				say "create $fn";
-				cp($_, $fn);
-			}
+		return unless -f;
+
+		my $fn = catfile($builddir, $File::Find::name);
+		if (!-e $fn || file_md5_hex($fn) ne file_md5_hex($_)) {
+			say "unlink $fn" if -e $fn;
+			say "create $fn";
+			cp($_, $fn);
 		}
 	},
 	".",
