@@ -2,6 +2,7 @@
 use utf8;
 use 5.014;
 use warnings;
+use autodie;
 
 use FindBin '$Bin';
 use YAML;
@@ -70,7 +71,8 @@ chdir($Bin);
 
 my ($config) = YAML::LoadFile( "config.yml" )
 	or die "Config file not found. Have you created it yet?";
-die "$config->{path} is not a directory" unless -d $config->{path};
+
+mkdir $config->{path} unless -d $config->{path};
 
 my $builddir = $config->{path};
 
