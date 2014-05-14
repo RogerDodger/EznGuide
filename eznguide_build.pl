@@ -1,18 +1,9 @@
 #!/usr/bin/env perl
 use utf8;
-
-use warnings;
-use strict;
 use 5.014;
-use Task::EznGuide v2013.02.18;
+use warnings;
 
 use FindBin '$Bin';
-
-# The Text::SmartyPants module on CPAN is packed up inside of an enormous distribution that takes
-# ages to install (like, an hour on my 3.33GHz i5), so we'll just include the module instead
-use lib "$Bin/lib";
-use Text::SmartyPants; 
-
 use YAML;
 use File::Find;
 use File::Copy 'cp';
@@ -23,6 +14,7 @@ use Template;
 use Template::Stash;
 use DateTime;
 use Text::Markdown;
+use Text::Typography qw/typography/;
 use HTML::TreeBuilder;
 use Archive::Zip;
 use Getopt::Long;
@@ -32,55 +24,52 @@ GetOptions( 'zip!' => \$zip );
 
 sub simple_uri {
 	my $str = join "-", @_;
-	
+
 	for ( $str ) {
-		s/[^a-zA-Z0-9\-\x20]//g; # Remove all except English letters, 
+		s/[^a-zA-Z0-9\-\x20]//g; # Remove all except English letters,
 		                         # Arabic numerals, hyphens, and spaces.
 		s/^\s+|\s+$//g; #Trim
 		s/[\s\-]+/-/g; #Collate spaces and hyphens into a single hyphen
 	}
-	
+
 	return $str;
 }
 
-{
-	package HTML::Element;
+# Monkey patch new method to elements
+#
+# Output the tag contents, ignoring optional nested elements by element name
+sub HTML::Element::guts {
+	my($e, $opt) = @_;
 
-	# Output the tag contents, ignoring optional nested elements by element name
-	sub guts {
-		my($e, $opt) = @_;
+	$opt->{ignore} //= [];
 
-		$opt->{ignore} //= [];
-
-		return join "", map {
-			if(ref $_) {
-				# isa HTML::Element
-				if($_->tag ~~ $opt->{ignore}) {
-					# If ignoring, don't wrap with the tag
-					$_->guts($opt);
-				}
-				else {
-					# Otherwise, wrap guts in tag + attributes
-					my %attr = $_->all_external_attr;
-					sprintf "<%s%s>%s</%s>", 
-						$_->tag,
-						( join "", map { " $_=\"$attr{$_}\"" } keys %attr ),
-						$_->guts($opt), 
-						$_->tag;
-				}
+	return join "", map {
+		if(ref $_) {
+			# isa HTML::Element
+			if($_->tag ~~ $opt->{ignore}) {
+				# If ignoring, don't wrap with the tag
+				$_->guts($opt);
 			}
 			else {
-				$_;
+				# Otherwise, wrap guts in tag + attributes
+				my %attr = $_->all_external_attr;
+				sprintf "<%s%s>%s</%s>",
+					$_->tag,
+					( join "", map { " $_=\"$attr{$_}\"" } keys %attr ),
+					$_->guts($opt),
+					$_->tag;
 			}
-		} $e->content_list;
-	}
-
+		}
+		else {
+			$_;
+		}
+	} $e->content_list;
 }
 
 chdir($Bin);
 
-my ($config) = YAML::LoadFile( "config.yml" ) 
-	or die "Config file not found. Have you created it yet?";	
+my ($config) = YAML::LoadFile( "config.yml" )
+	or die "Config file not found. Have you created it yet?";
 die "$config->{path} is not a directory" unless -d $config->{path};
 
 my $builddir = $config->{path};
@@ -92,8 +81,8 @@ unless( -e (my $fn = catfile($builddir, "favicon.ico")) ) {
 
 # Move static files into the builddir
 chdir( catdir('root', 'static') );
-find( 
-	sub { 
+find(
+	sub {
 		if(-d) {
 			my $dir = catdir($builddir, $File::Find::name);
 			unless( -d $dir ) {
@@ -132,7 +121,9 @@ my $tt = Template->new({
 			my $text = shift;
 
 			$text = Text::Markdown->new->markdown($text);
-			$text = Text::SmartyPants::process($text, 2); # Educate -- to en, and --- to em dashes
+
+			# Educate -- to en, and --- to em dashes
+			$text = typography($text, 2);
 
 			return $text;
 		},
@@ -166,9 +157,9 @@ my @stack;
 my $depth = 0;
 
 my @tokens = split /($b|$e)/, $content;
-for ( my $i = 0; $i <= $#tokens; $i++ ) 
+for ( my $i = 0; $i <= $#tokens; $i++ )
 {
-	if( $tokens[$i] eq $begin_tag ) 
+	if( $tokens[$i] eq $begin_tag )
 	{
 		push @stack, $i;
 		$depth++;
@@ -181,27 +172,27 @@ for ( my $i = 0; $i <= $#tokens; $i++ )
 	}
 }
 
-if( @footnotes = map { ref $_ ? @$_ : $_ } @footnotes ) 
+if( @footnotes = map { ref $_ ? @$_ : $_ } @footnotes )
 {
 	my $footref_fmt = '<sup><a id="foot-%s" href="#foot-%s">%d</a></sup>';
 	$content .= '
 	<h1>Footnotes</h1>
 	<ul class="footnotes">
 	';
-	for(my $n = 1; $n <= @footnotes; $n++) 
+	for(my $n = 1; $n <= @footnotes; $n++)
 	{
 		my $footnote = $footnotes[$n - 1];
 
 		#Replace content with numbered foot reference
 		substr(
-			$content, 
-			index($content, $footnote), 
+			$content,
+			index($content, $footnote),
 			length $footnote
 		) = sprintf $footref_fmt, "$n-a", $n, $n;
-		
+
 		#Append note
 		my $backref = sprintf $footref_fmt, $n, "$n-a", $n;
-		s/^$b//, s/$e$// for $footnote; 
+		s/^$b//, s/$e$// for $footnote;
 		$content .= "\t<li>$backref $footnote</li>\n";
 	}
 	$content .= "</ul>\n";
@@ -239,11 +230,11 @@ my @headers;
 for my $e ( $tree->find('h1', 'h2', 'h3', 'h4') ) {
 	if( (my $index = index $content, $e->as_HTML ) >= 0 ) {
 
-		push @headers, { 
+		push @headers, {
 			class    => $e->tag,
 			href     => simple_uri( $e->as_text ),
 			contents => $e->guts({ ignore => [ 'a' ] }),
-		}; 
+		};
 
 		#Prepend an anchor to the header
 		substr($content, $index, 0 ) = sprintf

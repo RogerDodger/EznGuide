@@ -33,7 +33,7 @@ A more subtle and also harder-to-explain error is the mixing of the past and pas
 
 _[Editor’s note: The following is not really correct]_
 
-For example, <span class="bad">“She knew the place well because she *grew up* there”</span> should be <span class="good">“She knew the place well because she *had grown up* there”</span>. 
+For example, <span class="bad">“She knew the place well because she *grew up* there”</span> should be <span class="good">“She knew the place well because she *had grown up* there”</span>.
 
 The word “grew”, while a past tense word, is one that is used in present tense sentences. For example, the sentence “He likes maple syrup because he grew up in Canada” is a present tense sentence in which a past event is referenced. If you said, <span class="bad">“I like maple syrup because I grow up in Canada”</span>, you’d get some strange looks.
 
